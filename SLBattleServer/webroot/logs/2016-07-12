@@ -1,0 +1,35 @@
+2016-07-12 13:56:47:610,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_match"), opcode: text, final: true
+2016-07-12 13:56:49:300,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("456_match"), opcode: text, final: true
+2016-07-12 13:56:49:490,DEBUG,BTBattleField.swift,isReady,75,battle field playerSocketKeys: 2 playerSockets: 2
+2016-07-12 13:56:50:496,DEBUG,BTBattleField.swift,isReady,75,battle field playerSocketKeys: 2 playerSockets: 2
+2016-07-12 13:56:51:500,DEBUG,BTBattleField.swift,isReady,75,battle field playerSocketKeys: 2 playerSockets: 2
+2016-07-12 13:56:52:502,DEBUG,BTBattleField.swift,isReady,75,battle field playerSocketKeys: 2 playerSockets: 2
+2016-07-12 13:56:53:507,DEBUG,BTBattleField.swift,isReady,75,battle field playerSocketKeys: 2 playerSockets: 2
+2016-07-12 13:56:54:510,DEBUG,BTBattleField.swift,isReady,75,battle field playerSocketKeys: 2 playerSockets: 2
+2016-07-12 13:56:55:515,DEBUG,BTBattleField.swift,isReady,75,battle field playerSocketKeys: 2 playerSockets: 2
+2016-07-12 13:56:56:519,DEBUG,BTBattleField.swift,isReady,75,battle field playerSocketKeys: 2 playerSockets: 2
+2016-07-12 13:56:57:525,DEBUG,BTBattleField.swift,isReady,75,battle field playerSocketKeys: 2 playerSockets: 2
+2016-07-12 13:56:58:528,DEBUG,BTBattleField.swift,isReady,75,battle field playerSocketKeys: 2 playerSockets: 2
+2016-07-12 13:56:59:531,DEBUG,BTBattleField.swift,isReady,75,battle field playerSocketKeys: 2 playerSockets: 2
+2016-07-12 13:57:00:537,DEBUG,BTBattleField.swift,isReady,75,battle field playerSocketKeys: 2 playerSockets: 2
+2016-07-12 13:57:01:554,DEBUG,BTBattleField.swift,isReady,75,battle field playerSocketKeys: 2 playerSockets: 2
+2016-07-12 13:58:39:778,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_match"), opcode: text, final: true
+2016-07-12 13:58:47:047,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("456_match"), opcode: text, final: true
+2016-07-12 13:58:47:508,DEBUG,BTBattleField.swift,isReady,75,battle field playerSocketKeys: 2 playerSockets: 2
+2016-07-12 13:59:22:877,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: nil, opcode: invalid, final: true
+2016-07-12 13:59:22:878,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),36,Invalid Socket: false
+2016-07-12 13:59:22:885,DEBUG,BTBattleField.swift,saveRecord(),219,PerfectLib.File exists BUT SHOULD NOT EXIST
+2016-07-12 14:00:43:799,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("456_match"), opcode: text, final: true
+2016-07-12 14:00:46:068,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_match"), opcode: text, final: true
+2016-07-12 14:00:46:877,DEBUG,BTBattleField.swift,isReady,75,battle field playerSocketKeys: 2 playerSockets: 2
+2016-07-12 14:00:51:652,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: nil, opcode: invalid, final: true
+2016-07-12 14:00:51:654,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),36,Invalid Socket: false
+2016-07-12 14:01:00:768,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: nil, opcode: invalid, final: true
+2016-07-12 14:01:00:769,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),36,Invalid Socket: false
+2016-07-12 14:01:07:542,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_match"), opcode: text, final: true
+2016-07-12 14:01:09:279,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("456_match"), opcode: text, final: true
+2016-07-12 14:01:09:951,DEBUG,BTBattleField.swift,isReady,75,battle field playerSocketKeys: 2 playerSockets: 2
+2016-07-12 14:01:12:186,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-12 14:01:14:547,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_match"), opcode: text, final: true
+2016-07-12 14:01:15:558,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("456_match"), opcode: text, final: true
+2016-07-12 14:01:15:967,DEBUG,BTBattleField.swift,isReady,75,battle field playerSocketKeys: 2 playerSockets: 2

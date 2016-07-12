@@ -1,0 +1,41 @@
+2016-07-11 11:48:33:233,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_match"), opcode: text, final: true2016-07-11 11:48:33:952,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("456_match"), opcode: text, final: true2016-07-11 11:48:35:609,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true2016-07-11 11:48:37:090,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("456_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true2016-07-11 11:48:37:719,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("456_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true2016-07-11 11:48:38:915,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true2016-07-11 11:48:42:240,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: nil, opcode: invalid, final: true2016-07-11 11:48:42:240,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: nil, opcode: invalid, final: true2016-07-11 11:48:42:241,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),32,Close Socket: false2016-07-11 11:48:42:241,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),32,Close Socket: false2016-07-11 11:50:05:824,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_match"), opcode: text, final: true
+2016-07-11 11:50:06:628,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("456_match"), opcode: text, final: true
+2016-07-11 11:50:07:715,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-11 11:50:08:647,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("456_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-11 11:50:09:016,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("456_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-11 11:50:11:113,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: nil, opcode: invalid, final: true
+2016-07-11 11:50:11:113,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: nil, opcode: invalid, final: true
+2016-07-11 11:50:11:115,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),32,Close Socket: false
+2016-07-11 11:50:11:115,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),32,Close Socket: false
+2016-07-11 11:56:37:240,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_match"), opcode: text, final: true
+2016-07-11 11:56:38:406,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("456_match"), opcode: text, final: true
+2016-07-11 11:56:42:107,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-11 11:56:43:857,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("456_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-11 11:56:44:941,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("456_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-11 11:56:53:386,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: nil, opcode: invalid, final: true
+2016-07-11 11:56:53:386,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: nil, opcode: invalid, final: true
+2016-07-11 11:56:53:387,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),32,Close Socket: false
+2016-07-11 11:56:53:389,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),32,Close Socket: false
+2016-07-11 11:57:21:932,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_match"), opcode: text, final: true
+2016-07-11 11:57:22:815,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("456_match"), opcode: text, final: true
+2016-07-11 11:57:34:547,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-11 11:57:35:583,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-11 12:05:23:882,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_match"), opcode: text, final: true
+2016-07-11 12:05:24:610,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("456_match"), opcode: text, final: true
+2016-07-11 12:05:26:509,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-11 12:05:28:923,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("456_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-11 12:05:29:893,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-11 12:05:33:380,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: nil, opcode: invalid, final: true
+2016-07-11 12:05:33:381,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: nil, opcode: invalid, final: true
+2016-07-11 12:05:33:382,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),32,Close Socket: false
+2016-07-11 12:05:33:382,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),32,Close Socket: false
+2016-07-11 12:09:39:188,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_match"), opcode: text, final: true
+2016-07-11 12:09:39:733,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("456_match"), opcode: text, final: true
+2016-07-11 12:09:41:180,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-11 12:09:42:104,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("456_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-11 12:09:42:461,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("456_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-11 12:09:43:624,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-11 12:09:45:922,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: nil, opcode: invalid, final: true
+2016-07-11 12:09:45:922,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: nil, opcode: invalid, final: true
+2016-07-11 12:09:45:923,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),32,Close Socket: false
+2016-07-11 12:09:45:923,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),32,Close Socket: false

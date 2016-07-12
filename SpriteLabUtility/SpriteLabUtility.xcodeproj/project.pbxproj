@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EA280D71D33613A001CBF73 /* SpriteLabUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EA280D61D33613A001CBF73 /* SpriteLabUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EA280E61D336160001CBF73 /* SLUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA280E41D336160001CBF73 /* SLUser.swift */; };
+		9EA280E71D336160001CBF73 /* OCTModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA280E51D336160001CBF73 /* OCTModel.swift */; };
+		9EA280EB1D336177001CBF73 /* SLBattleFieldNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA280EA1D336177001CBF73 /* SLBattleFieldNet.swift */; };
+		9EA281161D33623D001CBF73 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA2810B1D336203001CBF73 /* Starscream.framework */; };
+		9EA281191D3365B6001CBF73 /* BTCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA281171D3365B6001CBF73 /* BTCommand.swift */; };
+		9EA2811A1D3365B6001CBF73 /* BTMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA281181D3365B6001CBF73 /* BTMessage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EA2810A1D336203001CBF73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EA281011D336203001CBF73 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6B3E79E619D48B7F006071F7;
+			remoteInfo = "Starscream iOS";
+		};
+		9EA2810C1D336203001CBF73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EA281011D336203001CBF73 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6B3E79F119D48B7F006071F7;
+			remoteInfo = "Starscream iOSTests";
+		};
+		9EA2810E1D336203001CBF73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EA281011D336203001CBF73 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9C3E35F19E48FF1009FC285;
+			remoteInfo = "Starscream OSX";
+		};
+		9EA281101D336203001CBF73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EA281011D336203001CBF73 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9C3E36919E48FF1009FC285;
+			remoteInfo = "Starscream OSXTests";
+		};
+		9EA281121D336203001CBF73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EA281011D336203001CBF73 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 091277971BD673A70003036D;
+			remoteInfo = "Starscream tvOS";
+		};
+		9EA281141D336203001CBF73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EA281011D336203001CBF73 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 091277A01BD673A70003036D;
+			remoteInfo = "Starscream tvOSTests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9EA280D31D33613A001CBF73 /* SpriteLabUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpriteLabUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EA280D61D33613A001CBF73 /* SpriteLabUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpriteLabUtility.h; sourceTree = "<group>"; };
+		9EA280D81D33613A001CBF73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EA280E41D336160001CBF73 /* SLUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLUser.swift; sourceTree = "<group>"; };
+		9EA280E51D336160001CBF73 /* OCTModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCTModel.swift; sourceTree = "<group>"; };
+		9EA280EA1D336177001CBF73 /* SLBattleFieldNet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLBattleFieldNet.swift; sourceTree = "<group>"; };
+		9EA281011D336203001CBF73 /* Starscream.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Starscream.xcodeproj; path = "../../../Downloads/Starscream-swift3/Starscream.xcodeproj"; sourceTree = "<group>"; };
+		9EA281171D3365B6001CBF73 /* BTCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTCommand.swift; sourceTree = "<group>"; };
+		9EA281181D3365B6001CBF73 /* BTMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTMessage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EA280CF1D33613A001CBF73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA281161D33623D001CBF73 /* Starscream.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EA280C91D33613A001CBF73 = {
+			isa = PBXGroup;
+			children = (
+				9EA281011D336203001CBF73 /* Starscream.xcodeproj */,
+				9EA280D51D33613A001CBF73 /* SpriteLabUtility */,
+				9EA280D41D33613A001CBF73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EA280D41D33613A001CBF73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EA280D31D33613A001CBF73 /* SpriteLabUtility.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EA280D51D33613A001CBF73 /* SpriteLabUtility */ = {
+			isa = PBXGroup;
+			children = (
+				9EA280E81D336163001CBF73 /* Model */,
+				9EA280E91D33616C001CBF73 /* Service */,
+				9EA280D61D33613A001CBF73 /* SpriteLabUtility.h */,
+				9EA280D81D33613A001CBF73 /* Info.plist */,
+			);
+			path = SpriteLabUtility;
+			sourceTree = "<group>";
+		};
+		9EA280E81D336163001CBF73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9EA280E41D336160001CBF73 /* SLUser.swift */,
+				9EA280E51D336160001CBF73 /* OCTModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9EA280E91D33616C001CBF73 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9EA281171D3365B6001CBF73 /* BTCommand.swift */,
+				9EA281181D3365B6001CBF73 /* BTMessage.swift */,
+				9EA280EA1D336177001CBF73 /* SLBattleFieldNet.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		9EA281021D336203001CBF73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EA2810B1D336203001CBF73 /* Starscream.framework */,
+				9EA2810D1D336203001CBF73 /* Starscream iOSTests.xctest */,
+				9EA2810F1D336203001CBF73 /* Starscream.framework */,
+				9EA281111D336203001CBF73 /* Starscream OSXTests.xctest */,
+				9EA281131D336203001CBF73 /* Starscream.framework */,
+				9EA281151D336203001CBF73 /* Starscream tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9EA280D01D33613A001CBF73 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA280D71D33613A001CBF73 /* SpriteLabUtility.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9EA280D21D33613A001CBF73 /* SpriteLabUtility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EA280DB1D33613A001CBF73 /* Build configuration list for PBXNativeTarget "SpriteLabUtility" */;
+			buildPhases = (
+				9EA280CE1D33613A001CBF73 /* Sources */,
+				9EA280CF1D33613A001CBF73 /* Frameworks */,
+				9EA280D01D33613A001CBF73 /* Headers */,
+				9EA280D11D33613A001CBF73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpriteLabUtility;
+			productName = SpriteLabUtility;
+			productReference = 9EA280D31D33613A001CBF73 /* SpriteLabUtility.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EA280CA1D33613A001CBF73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = octopus;
+				TargetAttributes = {
+					9EA280D21D33613A001CBF73 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = RPE99U9L3R;
+						DevelopmentTeamName = "宇涵 张 (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9EA280CD1D33613A001CBF73 /* Build configuration list for PBXProject "SpriteLabUtility" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9EA280C91D33613A001CBF73;
+			productRefGroup = 9EA280D41D33613A001CBF73 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9EA281021D336203001CBF73 /* Products */;
+					ProjectRef = 9EA281011D336203001CBF73 /* Starscream.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				9EA280D21D33613A001CBF73 /* SpriteLabUtility */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9EA2810B1D336203001CBF73 /* Starscream.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Starscream.framework;
+			remoteRef = 9EA2810A1D336203001CBF73 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9EA2810D1D336203001CBF73 /* Starscream iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Starscream iOSTests.xctest";
+			remoteRef = 9EA2810C1D336203001CBF73 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9EA2810F1D336203001CBF73 /* Starscream.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Starscream.framework;
+			remoteRef = 9EA2810E1D336203001CBF73 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9EA281111D336203001CBF73 /* Starscream OSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Starscream OSXTests.xctest";
+			remoteRef = 9EA281101D336203001CBF73 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9EA281131D336203001CBF73 /* Starscream.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Starscream.framework;
+			remoteRef = 9EA281121D336203001CBF73 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9EA281151D336203001CBF73 /* Starscream tvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Starscream tvOSTests.xctest";
+			remoteRef = 9EA281141D336203001CBF73 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EA280D11D33613A001CBF73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EA280CE1D33613A001CBF73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA280EB1D336177001CBF73 /* SLBattleFieldNet.swift in Sources */,
+				9EA280E71D336160001CBF73 /* OCTModel.swift in Sources */,
+				9EA280E61D336160001CBF73 /* SLUser.swift in Sources */,
+				9EA281191D3365B6001CBF73 /* BTCommand.swift in Sources */,
+				9EA2811A1D3365B6001CBF73 /* BTMessage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9EA280D91D33613A001CBF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9EA280DA1D33613A001CBF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9EA280DC1D33613A001CBF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SpriteLabUtility/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = online.octopus.SpriteLabUtility;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9EA280DD1D33613A001CBF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SpriteLabUtility/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = online.octopus.SpriteLabUtility;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EA280CD1D33613A001CBF73 /* Build configuration list for PBXProject "SpriteLabUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EA280D91D33613A001CBF73 /* Debug */,
+				9EA280DA1D33613A001CBF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EA280DB1D33613A001CBF73 /* Build configuration list for PBXNativeTarget "SpriteLabUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EA280DC1D33613A001CBF73 /* Debug */,
+				9EA280DD1D33613A001CBF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EA280CA1D33613A001CBF73 /* Project object */;
+}

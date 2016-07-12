@@ -1,0 +1,919 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		_LinkFileRef_PerfectLib_via_SpriteLabServer /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectLib" /* PerfectLib.framework */; };
+		_LinkFileRef_PerfectNet_via_PerfectLib /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectNet" /* PerfectNet.framework */; };
+		_LinkFileRef_PerfectNet_via_SpriteLabServer /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectNet" /* PerfectNet.framework */; };
+		_LinkFileRef_PerfectThread_via_PerfectLib /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectThread" /* PerfectThread.framework */; };
+		_LinkFileRef_PerfectThread_via_PerfectNet /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectThread" /* PerfectThread.framework */; };
+		_LinkFileRef_PerfectThread_via_SpriteLabServer /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectThread" /* PerfectThread.framework */; };
+		_LinkFileRef_PostgreSQL_via_SpriteLabServer /* PostgreSQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PostgreSQL" /* PostgreSQL.framework */; };
+		_LinkFileRef_SwiftyJSON_via_SpriteLabServer /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SwiftyJSON" /* SwiftyJSON.framework */; };
+		"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/Bytes.swift" /* Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/Bytes.swift" /* Bytes.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/Dir.swift" /* Dir.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/Dir.swift" /* Dir.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/DynamicLoader.swift" /* DynamicLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/DynamicLoader.swift" /* DynamicLoader.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/FastCGI.swift" /* FastCGI.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/FastCGI.swift" /* FastCGI.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/FastCGIServer.swift" /* FastCGIServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/FastCGIServer.swift" /* FastCGIServer.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/File.swift" /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/File.swift" /* File.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/HPACK.swift" /* HPACK.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/HPACK.swift" /* HPACK.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/HTTP2.swift" /* HTTP2.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/HTTP2.swift" /* HTTP2.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/HTTPServer.swift" /* HTTPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/HTTPServer.swift" /* HTTPServer.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/JSONConvertible.swift" /* JSONConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/JSONConvertible.swift" /* JSONConvertible.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/LogManager.swift" /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/LogManager.swift" /* LogManager.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/MimeReader.swift" /* MimeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/MimeReader.swift" /* MimeReader.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/MimeType.swift" /* MimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/MimeType.swift" /* MimeType.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/Mustache.swift" /* Mustache.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/Mustache.swift" /* Mustache.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/NotificationPusher.swift" /* NotificationPusher.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/NotificationPusher.swift" /* NotificationPusher.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/PerfectError.swift" /* PerfectError.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/PerfectError.swift" /* PerfectError.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/PerfectServer.swift" /* PerfectServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/PerfectServer.swift" /* PerfectServer.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/Routing.swift" /* Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/Routing.swift" /* Routing.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/StaticFileHandler.swift" /* StaticFileHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/StaticFileHandler.swift" /* StaticFileHandler.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/SwiftCompatibility.swift" /* SwiftCompatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/SwiftCompatibility.swift" /* SwiftCompatibility.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/SysProcess.swift" /* SysProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/SysProcess.swift" /* SysProcess.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/Utilities.swift" /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/Utilities.swift" /* Utilities.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/WebConnection.swift" /* WebConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/WebConnection.swift" /* WebConnection.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/WebRequest.swift" /* WebRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/WebRequest.swift" /* WebRequest.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/WebResponse.swift" /* WebResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/WebResponse.swift" /* WebResponse.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/WebSocketHandler.swift" /* WebSocketHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/WebSocketHandler.swift" /* WebSocketHandler.swift */; };
+		"__src_cc_ref_Packages/PerfectNet-0.11.0/Sources/Net.swift" /* Net.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectNet-0.11.0/Sources/Net.swift" /* Net.swift */; };
+		"__src_cc_ref_Packages/PerfectNet-0.11.0/Sources/NetEvent.swift" /* NetEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectNet-0.11.0/Sources/NetEvent.swift" /* NetEvent.swift */; };
+		"__src_cc_ref_Packages/PerfectNet-0.11.0/Sources/NetNamedPipe.swift" /* NetNamedPipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectNet-0.11.0/Sources/NetNamedPipe.swift" /* NetNamedPipe.swift */; };
+		"__src_cc_ref_Packages/PerfectNet-0.11.0/Sources/NetTCP.swift" /* NetTCP.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectNet-0.11.0/Sources/NetTCP.swift" /* NetTCP.swift */; };
+		"__src_cc_ref_Packages/PerfectNet-0.11.0/Sources/NetTCPSSL.swift" /* NetTCPSSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectNet-0.11.0/Sources/NetTCPSSL.swift" /* NetTCPSSL.swift */; };
+		"__src_cc_ref_Packages/PerfectThread-0.9.0/Sources/ThreadQueue.swift" /* ThreadQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectThread-0.9.0/Sources/ThreadQueue.swift" /* ThreadQueue.swift */; };
+		"__src_cc_ref_Packages/PerfectThread-0.9.0/Sources/Threading.swift" /* Threading.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectThread-0.9.0/Sources/Threading.swift" /* Threading.swift */; };
+		"__src_cc_ref_Packages/PostgreSQL-0.1.0/Sources/PostgreSQL/PostgreSQL.swift" /* PostgreSQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PostgreSQL-0.1.0/Sources/PostgreSQL/PostgreSQL.swift" /* PostgreSQL.swift */; };
+		"__src_cc_ref_Packages/SwiftyJSON-9.0.0/Source/LclJSONSerialization.swift" /* LclJSONSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/SwiftyJSON-9.0.0/Source/LclJSONSerialization.swift" /* LclJSONSerialization.swift */; };
+		"__src_cc_ref_Packages/SwiftyJSON-9.0.0/Source/SwiftyJSON.swift" /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/SwiftyJSON-9.0.0/Source/SwiftyJSON.swift" /* SwiftyJSON.swift */; };
+		__src_cc_ref_Sources/OCTDAO.swift /* OCTDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/OCTDAO.swift /* OCTDAO.swift */; };
+		__src_cc_ref_Sources/OCTLogger.swift /* OCTLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/OCTLogger.swift /* OCTLogger.swift */; };
+		__src_cc_ref_Sources/PostgreSQL.swift /* PostgreSQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/PostgreSQL.swift /* PostgreSQL.swift */; };
+		__src_cc_ref_Sources/RoutingHandlers.swift /* RoutingHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/RoutingHandlers.swift /* RoutingHandlers.swift */; };
+		__src_cc_ref_Sources/SLUserDAO.swift /* SLUserDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/SLUserDAO.swift /* SLUserDAO.swift */; };
+		__src_cc_ref_Sources/UserRoutingHandlers.swift /* UserRoutingHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/UserRoutingHandlers.swift /* UserRoutingHandlers.swift */; };
+		__src_cc_ref_Sources/main.swift /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/main.swift /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E8033A11D2514EC00743BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_PerfectThread";
+			remoteInfo = PerfectThread;
+		};
+		9E8033A21D2514EC00743BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_PerfectNet";
+			remoteInfo = PerfectNet;
+		};
+		9E8033A31D2514EC00743BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_SwiftyJSON";
+			remoteInfo = SwiftyJSON;
+		};
+		9E8033A41D2514EC00743BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_PostgreSQL";
+			remoteInfo = PostgreSQL;
+		};
+		9E8033A51D2514EC00743BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_PerfectLib";
+			remoteInfo = PerfectLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/Bytes.swift" /* Bytes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bytes.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/Dir.swift" /* Dir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dir.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/DynamicLoader.swift" /* DynamicLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicLoader.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/FastCGI.swift" /* FastCGI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastCGI.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/FastCGIServer.swift" /* FastCGIServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastCGIServer.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/File.swift" /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/HPACK.swift" /* HPACK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPACK.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/HTTP2.swift" /* HTTP2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP2.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/HTTPServer.swift" /* HTTPServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPServer.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/JSONConvertible.swift" /* JSONConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONConvertible.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/LogManager.swift" /* LogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/MimeReader.swift" /* MimeReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MimeReader.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/MimeType.swift" /* MimeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MimeType.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/Mustache.swift" /* Mustache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mustache.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/NotificationPusher.swift" /* NotificationPusher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPusher.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/PerfectError.swift" /* PerfectError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectError.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/PerfectServer.swift" /* PerfectServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectServer.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/Routing.swift" /* Routing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routing.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/StaticFileHandler.swift" /* StaticFileHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticFileHandler.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/SwiftCompatibility.swift" /* SwiftCompatibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCompatibility.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/SysProcess.swift" /* SysProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SysProcess.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/Utilities.swift" /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/WebConnection.swift" /* WebConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebConnection.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/WebRequest.swift" /* WebRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRequest.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/WebResponse.swift" /* WebResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebResponse.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/WebSocketHandler.swift" /* WebSocketHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketHandler.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectNet-0.11.0/Sources/Net.swift" /* Net.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Net.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectNet-0.11.0/Sources/NetEvent.swift" /* NetEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetEvent.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectNet-0.11.0/Sources/NetNamedPipe.swift" /* NetNamedPipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetNamedPipe.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectNet-0.11.0/Sources/NetTCP.swift" /* NetTCP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetTCP.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectNet-0.11.0/Sources/NetTCPSSL.swift" /* NetTCPSSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetTCPSSL.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectThread-0.9.0/Sources/ThreadQueue.swift" /* ThreadQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadQueue.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectThread-0.9.0/Sources/Threading.swift" /* Threading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Threading.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PostgreSQL-0.1.0/Sources/PostgreSQL/PostgreSQL.swift" /* PostgreSQL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostgreSQL.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/SwiftyJSON-9.0.0/Source/LclJSONSerialization.swift" /* LclJSONSerialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LclJSONSerialization.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/SwiftyJSON-9.0.0/Source/SwiftyJSON.swift" /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		__PBXFileRef_PerfectLib_Info.plist /* PerfectLib_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = PerfectLib_Info.plist; path = SpriteLabServer.xcodeproj/PerfectLib_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_PerfectNet_Info.plist /* PerfectNet_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = PerfectNet_Info.plist; path = SpriteLabServer.xcodeproj/PerfectNet_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_PerfectThread_Info.plist /* PerfectThread_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = PerfectThread_Info.plist; path = SpriteLabServer.xcodeproj/PerfectThread_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_PostgreSQL_Info.plist /* PostgreSQL_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = PostgreSQL_Info.plist; path = SpriteLabServer.xcodeproj/PostgreSQL_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_Sources/OCTDAO.swift /* OCTDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCTDAO.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/OCTLogger.swift /* OCTLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCTLogger.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/PostgreSQL.swift /* PostgreSQL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostgreSQL.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/RoutingHandlers.swift /* RoutingHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingHandlers.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/SLUserDAO.swift /* SLUserDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLUserDAO.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/UserRoutingHandlers.swift /* UserRoutingHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRoutingHandlers.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/main.swift /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		__PBXFileRef_SpriteLabServer.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Project.xcconfig; path = SpriteLabServer.xcodeproj/Configs/Project.xcconfig; sourceTree = "<group>"; };
+		__PBXFileRef_SwiftyJSON_Info.plist /* SwiftyJSON_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = SwiftyJSON_Info.plist; path = SpriteLabServer.xcodeproj/SwiftyJSON_Info.plist; sourceTree = SOURCE_ROOT; };
+		"_____Product_PerfectLib" /* PerfectLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_PerfectNet" /* PerfectNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_PerfectThread" /* PerfectThread.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectThread.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_PostgreSQL" /* PostgreSQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PostgreSQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SpriteLabServer" /* SpriteLabServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SpriteLabServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SwiftyJSON" /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		"___LinkPhase_PerfectLib" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_PerfectThread_via_PerfectLib /* PerfectThread.framework in Frameworks */,
+				_LinkFileRef_PerfectNet_via_PerfectLib /* PerfectNet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_PerfectNet" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_PerfectThread_via_PerfectNet /* PerfectThread.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_PerfectThread" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_PostgreSQL" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_SpriteLabServer" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_PerfectThread_via_SpriteLabServer /* PerfectThread.framework in Frameworks */,
+				_LinkFileRef_PerfectNet_via_SpriteLabServer /* PerfectNet.framework in Frameworks */,
+				_LinkFileRef_SwiftyJSON_via_SpriteLabServer /* SwiftyJSON.framework in Frameworks */,
+				_LinkFileRef_PostgreSQL_via_SpriteLabServer /* PostgreSQL.framework in Frameworks */,
+				_LinkFileRef_PerfectLib_via_SpriteLabServer /* PerfectLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_SwiftyJSON" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		Dependencies_ /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_PerfectThread" /* PerfectThread */,
+				"_______Group_PerfectNet" /* PerfectNet */,
+				"_______Group_PerfectLib" /* PerfectLib */,
+				"_______Group_PostgreSQL" /* PostgreSQL */,
+				"_______Group_SwiftyJSON" /* SwiftyJSON */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		"___RootGroup_" = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Package.swift /* Package.swift */,
+				"_____Configs_" /* Configs */,
+				"_____Sources_" /* Sources */,
+				Dependencies_ /* Dependencies */,
+				"____Products_" /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		"____Products_" /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"_____Product_PerfectThread" /* PerfectThread.framework */,
+				"_____Product_PerfectNet" /* PerfectNet.framework */,
+				"_____Product_PerfectLib" /* PerfectLib.framework */,
+				"_____Product_PostgreSQL" /* PostgreSQL.framework */,
+				"_____Product_SwiftyJSON" /* SwiftyJSON.framework */,
+				"_____Product_SpriteLabServer" /* SpriteLabServer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		"_____Configs_" /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_SpriteLabServer.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */,
+			);
+			name = Configs;
+			sourceTree = "<group>";
+		};
+		"_____Sources_" /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_SpriteLabServer" /* SpriteLabServer */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		"_______Group_PerfectLib" /* PerfectLib */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/Bytes.swift" /* Bytes.swift */,
+				"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/Dir.swift" /* Dir.swift */,
+				"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/DynamicLoader.swift" /* DynamicLoader.swift */,
+				"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/FastCGI.swift" /* FastCGI.swift */,
+				"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/FastCGIServer.swift" /* FastCGIServer.swift */,
+				"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/File.swift" /* File.swift */,
+				"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/HPACK.swift" /* HPACK.swift */,
+				"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/HTTP2.swift" /* HTTP2.swift */,
+				"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/HTTPServer.swift" /* HTTPServer.swift */,
+				"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/JSONConvertible.swift" /* JSONConvertible.swift */,
+				"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/LogManager.swift" /* LogManager.swift */,
+				"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/MimeReader.swift" /* MimeReader.swift */,
+				"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/MimeType.swift" /* MimeType.swift */,
+				"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/Mustache.swift" /* Mustache.swift */,
+				"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/NotificationPusher.swift" /* NotificationPusher.swift */,
+				"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/PerfectError.swift" /* PerfectError.swift */,
+				"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/PerfectServer.swift" /* PerfectServer.swift */,
+				"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/Routing.swift" /* Routing.swift */,
+				"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/StaticFileHandler.swift" /* StaticFileHandler.swift */,
+				"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/SwiftCompatibility.swift" /* SwiftCompatibility.swift */,
+				"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/SysProcess.swift" /* SysProcess.swift */,
+				"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/Utilities.swift" /* Utilities.swift */,
+				"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/WebConnection.swift" /* WebConnection.swift */,
+				"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/WebRequest.swift" /* WebRequest.swift */,
+				"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/WebResponse.swift" /* WebResponse.swift */,
+				"__PBXFileRef_Packages/PerfectLib-0.38.0/Sources/PerfectLib/WebSocketHandler.swift" /* WebSocketHandler.swift */,
+				__PBXFileRef_PerfectLib_Info.plist /* PerfectLib_Info.plist */,
+			);
+			name = PerfectLib;
+			path = "Packages/PerfectLib-0.38.0/Sources/PerfectLib";
+			sourceTree = "<group>";
+		};
+		"_______Group_PerfectNet" /* PerfectNet */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/PerfectNet-0.11.0/Sources/Net.swift" /* Net.swift */,
+				"__PBXFileRef_Packages/PerfectNet-0.11.0/Sources/NetEvent.swift" /* NetEvent.swift */,
+				"__PBXFileRef_Packages/PerfectNet-0.11.0/Sources/NetNamedPipe.swift" /* NetNamedPipe.swift */,
+				"__PBXFileRef_Packages/PerfectNet-0.11.0/Sources/NetTCP.swift" /* NetTCP.swift */,
+				"__PBXFileRef_Packages/PerfectNet-0.11.0/Sources/NetTCPSSL.swift" /* NetTCPSSL.swift */,
+				__PBXFileRef_PerfectNet_Info.plist /* PerfectNet_Info.plist */,
+			);
+			name = PerfectNet;
+			path = "Packages/PerfectNet-0.11.0/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_PerfectThread" /* PerfectThread */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/PerfectThread-0.9.0/Sources/Threading.swift" /* Threading.swift */,
+				"__PBXFileRef_Packages/PerfectThread-0.9.0/Sources/ThreadQueue.swift" /* ThreadQueue.swift */,
+				__PBXFileRef_PerfectThread_Info.plist /* PerfectThread_Info.plist */,
+			);
+			name = PerfectThread;
+			path = "Packages/PerfectThread-0.9.0/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_PostgreSQL" /* PostgreSQL */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/PostgreSQL-0.1.0/Sources/PostgreSQL/PostgreSQL.swift" /* PostgreSQL.swift */,
+				__PBXFileRef_PostgreSQL_Info.plist /* PostgreSQL_Info.plist */,
+			);
+			name = PostgreSQL;
+			path = "Packages/PostgreSQL-0.1.0/Sources/PostgreSQL";
+			sourceTree = "<group>";
+		};
+		"_______Group_SpriteLabServer" /* SpriteLabServer */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Sources/main.swift /* main.swift */,
+				__PBXFileRef_Sources/OCTLogger.swift /* OCTLogger.swift */,
+				__PBXFileRef_Sources/OCTDAO.swift /* OCTDAO.swift */,
+				__PBXFileRef_Sources/PostgreSQL.swift /* PostgreSQL.swift */,
+				__PBXFileRef_Sources/RoutingHandlers.swift /* RoutingHandlers.swift */,
+				__PBXFileRef_Sources/SLUserDAO.swift /* SLUserDAO.swift */,
+				__PBXFileRef_Sources/UserRoutingHandlers.swift /* UserRoutingHandlers.swift */,
+			);
+			name = SpriteLabServer;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		"_______Group_SwiftyJSON" /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/SwiftyJSON-9.0.0/Source/LclJSONSerialization.swift" /* LclJSONSerialization.swift */,
+				"__PBXFileRef_Packages/SwiftyJSON-9.0.0/Source/SwiftyJSON.swift" /* SwiftyJSON.swift */,
+				__PBXFileRef_SwiftyJSON_Info.plist /* SwiftyJSON_Info.plist */,
+			);
+			name = SwiftyJSON;
+			path = "Packages/SwiftyJSON-9.0.0/Source";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"______Target_PerfectLib" /* PerfectLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_PerfectLib" /* Build configuration list for PBXNativeTarget "PerfectLib" */;
+			buildPhases = (
+				CompilePhase_PerfectLib /* Sources */,
+				"___LinkPhase_PerfectLib" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_PerfectThread /* PBXTargetDependency */,
+				__Dependency_PerfectNet /* PBXTargetDependency */,
+			);
+			name = PerfectLib;
+			productName = PerfectLib;
+			productReference = "_____Product_PerfectLib" /* PerfectLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_PerfectNet" /* PerfectNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_PerfectNet" /* Build configuration list for PBXNativeTarget "PerfectNet" */;
+			buildPhases = (
+				CompilePhase_PerfectNet /* Sources */,
+				"___LinkPhase_PerfectNet" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_PerfectThread /* PBXTargetDependency */,
+			);
+			name = PerfectNet;
+			productName = PerfectNet;
+			productReference = "_____Product_PerfectNet" /* PerfectNet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_PerfectThread" /* PerfectThread */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_PerfectThread" /* Build configuration list for PBXNativeTarget "PerfectThread" */;
+			buildPhases = (
+				CompilePhase_PerfectThread /* Sources */,
+				"___LinkPhase_PerfectThread" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectThread;
+			productName = PerfectThread;
+			productReference = "_____Product_PerfectThread" /* PerfectThread.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_PostgreSQL" /* PostgreSQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_PostgreSQL" /* Build configuration list for PBXNativeTarget "PostgreSQL" */;
+			buildPhases = (
+				CompilePhase_PostgreSQL /* Sources */,
+				"___LinkPhase_PostgreSQL" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PostgreSQL;
+			productName = PostgreSQL;
+			productReference = "_____Product_PostgreSQL" /* PostgreSQL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_SpriteLabServer" /* SpriteLabServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_SpriteLabServer" /* Build configuration list for PBXNativeTarget "SpriteLabServer" */;
+			buildPhases = (
+				CompilePhase_SpriteLabServer /* Sources */,
+				"___LinkPhase_SpriteLabServer" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_PerfectThread /* PBXTargetDependency */,
+				__Dependency_PerfectNet /* PBXTargetDependency */,
+				__Dependency_SwiftyJSON /* PBXTargetDependency */,
+				__Dependency_PostgreSQL /* PBXTargetDependency */,
+				__Dependency_PerfectLib /* PBXTargetDependency */,
+			);
+			name = SpriteLabServer;
+			productName = SpriteLabServer;
+			productReference = "_____Product_SpriteLabServer" /* SpriteLabServer */;
+			productType = "com.apple.product-type.tool";
+		};
+		"______Target_SwiftyJSON" /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_SwiftyJSON" /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				CompilePhase_SwiftyJSON /* Sources */,
+				"___LinkPhase_SwiftyJSON" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = "_____Product_SwiftyJSON" /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		__RootObject_ /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = "___RootConfs_" /* Build configuration list for PBXProject "SpriteLabServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = "___RootGroup_";
+			productRefGroup = "____Products_" /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"______Target_PerfectThread" /* PerfectThread */,
+				"______Target_PerfectNet" /* PerfectNet */,
+				"______Target_PerfectLib" /* PerfectLib */,
+				"______Target_PostgreSQL" /* PostgreSQL */,
+				"______Target_SwiftyJSON" /* SwiftyJSON */,
+				"______Target_SpriteLabServer" /* SpriteLabServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CompilePhase_PerfectLib /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/Bytes.swift" /* Bytes.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/Dir.swift" /* Dir.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/DynamicLoader.swift" /* DynamicLoader.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/FastCGI.swift" /* FastCGI.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/FastCGIServer.swift" /* FastCGIServer.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/File.swift" /* File.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/HPACK.swift" /* HPACK.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/HTTP2.swift" /* HTTP2.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/HTTPServer.swift" /* HTTPServer.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/JSONConvertible.swift" /* JSONConvertible.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/LogManager.swift" /* LogManager.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/MimeReader.swift" /* MimeReader.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/MimeType.swift" /* MimeType.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/Mustache.swift" /* Mustache.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/NotificationPusher.swift" /* NotificationPusher.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/PerfectError.swift" /* PerfectError.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/PerfectServer.swift" /* PerfectServer.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/Routing.swift" /* Routing.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/StaticFileHandler.swift" /* StaticFileHandler.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/SwiftCompatibility.swift" /* SwiftCompatibility.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/SysProcess.swift" /* SysProcess.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/Utilities.swift" /* Utilities.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/WebConnection.swift" /* WebConnection.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/WebRequest.swift" /* WebRequest.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/WebResponse.swift" /* WebResponse.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-0.38.0/Sources/PerfectLib/WebSocketHandler.swift" /* WebSocketHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_PerfectNet /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/PerfectNet-0.11.0/Sources/Net.swift" /* Net.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectNet-0.11.0/Sources/NetEvent.swift" /* NetEvent.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectNet-0.11.0/Sources/NetNamedPipe.swift" /* NetNamedPipe.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectNet-0.11.0/Sources/NetTCP.swift" /* NetTCP.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectNet-0.11.0/Sources/NetTCPSSL.swift" /* NetTCPSSL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_PerfectThread /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/PerfectThread-0.9.0/Sources/Threading.swift" /* Threading.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectThread-0.9.0/Sources/ThreadQueue.swift" /* ThreadQueue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_PostgreSQL /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/PostgreSQL-0.1.0/Sources/PostgreSQL/PostgreSQL.swift" /* PostgreSQL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_SpriteLabServer /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				__src_cc_ref_Sources/main.swift /* main.swift in Sources */,
+				__src_cc_ref_Sources/OCTDAO.swift /* OCTDAO.swift in Sources */,
+				__src_cc_ref_Sources/OCTLogger.swift /* OCTLogger.swift in Sources */,
+				__src_cc_ref_Sources/PostgreSQL.swift /* PostgreSQL.swift in Sources */,
+				__src_cc_ref_Sources/RoutingHandlers.swift /* RoutingHandlers.swift in Sources */,
+				__src_cc_ref_Sources/SLUserDAO.swift /* SLUserDAO.swift in Sources */,
+				__src_cc_ref_Sources/UserRoutingHandlers.swift /* UserRoutingHandlers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_SwiftyJSON /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/SwiftyJSON-9.0.0/Source/LclJSONSerialization.swift" /* LclJSONSerialization.swift in Sources */,
+				"__src_cc_ref_Packages/SwiftyJSON-9.0.0/Source/SwiftyJSON.swift" /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		__Dependency_PerfectLib /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_PerfectLib" /* PerfectLib */;
+			targetProxy = 9E8033A51D2514EC00743BAE /* PBXContainerItemProxy */;
+		};
+		__Dependency_PerfectNet /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_PerfectNet" /* PerfectNet */;
+			targetProxy = 9E8033A21D2514EC00743BAE /* PBXContainerItemProxy */;
+		};
+		__Dependency_PerfectThread /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_PerfectThread" /* PerfectThread */;
+			targetProxy = 9E8033A11D2514EC00743BAE /* PBXContainerItemProxy */;
+		};
+		__Dependency_PostgreSQL /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_PostgreSQL" /* PostgreSQL */;
+			targetProxy = 9E8033A41D2514EC00743BAE /* PBXContainerItemProxy */;
+		};
+		__Dependency_SwiftyJSON /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_SwiftyJSON" /* SwiftyJSON */;
+			targetProxy = 9E8033A31D2514EC00743BAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		_ReleaseConf_PerfectLib /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/yorg/Developer/SpriteLabServer/SpriteLabServer/Packages/OpenSSL-0.3.0";
+				INFOPLIST_FILE = SpriteLabServer.xcodeproj/PerfectLib_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/openssl/1.0.2g/lib",
+					"-lssl",
+					"-L/usr/local/Cellar/openssl/1.0.2g/lib",
+					"-lcrypto",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/openssl/1.0.2g/include -I/usr/local/Cellar/openssl/1.0.2g/include";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_PerfectNet /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/yorg/Developer/SpriteLabServer/SpriteLabServer/Packages/OpenSSL-0.3.0";
+				INFOPLIST_FILE = SpriteLabServer.xcodeproj/PerfectNet_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/openssl/1.0.2g/lib",
+					"-lssl",
+					"-L/usr/local/Cellar/openssl/1.0.2g/lib",
+					"-lcrypto",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/openssl/1.0.2g/include -I/usr/local/Cellar/openssl/1.0.2g/include";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_PerfectThread /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = SpriteLabServer.xcodeproj/PerfectThread_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_PostgreSQL /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/yorg/Developer/SpriteLabServer/SpriteLabServer/Packages/libpq-0.1.0";
+				INFOPLIST_FILE = SpriteLabServer.xcodeproj/PostgreSQL_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/lib",
+					"-lpq",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/postgresql/9.5.2/include";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_SpriteLabServer /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"/Users/yorg/Developer/SpriteLabServer/SpriteLabServer/Packages/libpq-0.1.0",
+					"/Users/yorg/Developer/SpriteLabServer/SpriteLabServer/Packages/OpenSSL-0.3.0",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/lib",
+					"-lpq",
+					"-L/usr/local/Cellar/openssl/1.0.2g/lib",
+					"-lssl",
+					"-L/usr/local/Cellar/openssl/1.0.2g/lib",
+					"-lcrypto",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/postgresql/9.5.2/include -I/usr/local/Cellar/openssl/1.0.2g/include -I/usr/local/Cellar/openssl/1.0.2g/include";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+			};
+			name = Release;
+		};
+		_ReleaseConf_SwiftyJSON /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = SpriteLabServer.xcodeproj/SwiftyJSON_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		"___DebugConf_PerfectLib" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/yorg/Developer/SpriteLabServer/SpriteLabServer/Packages/OpenSSL-0.3.0";
+				INFOPLIST_FILE = SpriteLabServer.xcodeproj/PerfectLib_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/openssl/1.0.2g/lib",
+					"-lssl",
+					"-L/usr/local/Cellar/openssl/1.0.2g/lib",
+					"-lcrypto",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/openssl/1.0.2g/include -I/usr/local/Cellar/openssl/1.0.2g/include";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_PerfectNet" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/yorg/Developer/SpriteLabServer/SpriteLabServer/Packages/OpenSSL-0.3.0";
+				INFOPLIST_FILE = SpriteLabServer.xcodeproj/PerfectNet_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/openssl/1.0.2g/lib",
+					"-lssl",
+					"-L/usr/local/Cellar/openssl/1.0.2g/lib",
+					"-lcrypto",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/openssl/1.0.2g/include -I/usr/local/Cellar/openssl/1.0.2g/include";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_PerfectThread" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = SpriteLabServer.xcodeproj/PerfectThread_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_PostgreSQL" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/yorg/Developer/SpriteLabServer/SpriteLabServer/Packages/libpq-0.1.0";
+				INFOPLIST_FILE = SpriteLabServer.xcodeproj/PostgreSQL_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/lib",
+					"-lpq",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/postgresql/9.5.2/include";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_SpriteLabServer" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"/Users/yorg/Developer/SpriteLabServer/SpriteLabServer/Packages/libpq-0.1.0",
+					"/Users/yorg/Developer/SpriteLabServer/SpriteLabServer/Packages/OpenSSL-0.3.0",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/lib",
+					"-lpq",
+					"-L/usr/local/Cellar/openssl/1.0.2g/lib",
+					"-lssl",
+					"-L/usr/local/Cellar/openssl/1.0.2g/lib",
+					"-lcrypto",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/postgresql/9.5.2/include -I/usr/local/Cellar/openssl/1.0.2g/include -I/usr/local/Cellar/openssl/1.0.2g/include";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_SwiftyJSON" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = SpriteLabServer.xcodeproj/SwiftyJSON_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"_____Release_" /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = __PBXFileRef_SpriteLabServer.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		"_______Debug_" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = __PBXFileRef_SpriteLabServer.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		"___RootConfs_" /* Build configuration list for PBXProject "SpriteLabServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"_______Debug_" /* Debug */,
+				"_____Release_" /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_PerfectLib" /* Build configuration list for PBXNativeTarget "PerfectLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_PerfectLib" /* Debug */,
+				_ReleaseConf_PerfectLib /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_PerfectNet" /* Build configuration list for PBXNativeTarget "PerfectNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_PerfectNet" /* Debug */,
+				_ReleaseConf_PerfectNet /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_PerfectThread" /* Build configuration list for PBXNativeTarget "PerfectThread" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_PerfectThread" /* Debug */,
+				_ReleaseConf_PerfectThread /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_PostgreSQL" /* Build configuration list for PBXNativeTarget "PostgreSQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_PostgreSQL" /* Debug */,
+				_ReleaseConf_PostgreSQL /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_SpriteLabServer" /* Build configuration list for PBXNativeTarget "SpriteLabServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_SpriteLabServer" /* Debug */,
+				_ReleaseConf_SpriteLabServer /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_SwiftyJSON" /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_SwiftyJSON" /* Debug */,
+				_ReleaseConf_SwiftyJSON /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = __RootObject_ /* Project object */;
+}
