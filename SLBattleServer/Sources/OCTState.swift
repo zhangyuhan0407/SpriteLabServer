@@ -7,8 +7,10 @@
 //
 
 
+import Foundation
 
-class OCTState {
+
+class OCTState: NSObject {
     
     weak var stateMachine: OCTStateMachine?
     
@@ -19,7 +21,7 @@ class OCTState {
     
     
     func didEnterWithPreviousState(_ previousState: OCTState?) {
-        
+        Logger.debug("previous: \(previousState?.classForCoder) current: \(self.classForCoder)")
     }
     
     
@@ -31,11 +33,4 @@ class OCTState {
 
 
 
-class BTSocketState: OCTState {
-    weak var socket: BTSocket?
-    
-    init(socket: BTSocket) {
-        self.socket = socket
-    }
-    
-}
+

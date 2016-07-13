@@ -54,22 +54,18 @@ struct BTMessage: CustomStringConvertible {
         
         
         let strings = string.components(separatedBy: "_")
+        
+        guard strings.count > 1 else {
+            return nil
+        }
+        
+        
         self.userID = strings[0]
         self.command = BTCommand.decode(string: strings[1])
-//        self.params = strings[2]
-        
+
         
         if strings.count > 2 {
-//            let param = strings[2]
-//            
-//            let pairs = param.components(separatedBy: "#")
-//            for pair in pairs {
-//                
-//            }
-            
             self.params = strings[2]
-            
-            
         }
         
 

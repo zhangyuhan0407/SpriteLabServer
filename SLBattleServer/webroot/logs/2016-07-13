@@ -1,0 +1,960 @@
+2016-07-13 14:09:22:777,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 14:09:22:787,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),116,true
+2016-07-13 14:09:56:222,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_battleresult"), opcode: text, final: true
+2016-07-13 14:10:10:107,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: nil, opcode: invalid, final: true
+2016-07-13 14:10:10:108,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),31,Invalid Socket: false
+2016-07-13 14:10:58:705,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: nil, opcode: invalid, final: true
+2016-07-13 14:10:58:707,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),31,Invalid Socket: false
+2016-07-13 14:11:21:449,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 14:11:21:450,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),116,true
+2016-07-13 14:11:40:024,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: nil, opcode: invalid, final: true
+2016-07-13 14:11:40:027,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),31,Invalid Socket: false
+2016-07-13 14:13:23:182,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: nil, opcode: invalid, final: true
+2016-07-13 14:13:23:183,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),31,Invalid Socket: false
+2016-07-13 14:13:32:611,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-13 14:13:39:012,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-13 14:13:45:856,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: nil, opcode: invalid, final: true
+2016-07-13 14:13:45:857,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),31,Invalid Socket: false
+2016-07-13 14:13:48:490,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-13 14:13:50:160,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-13 14:14:30:853,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: nil, opcode: invalid, final: true
+2016-07-13 14:14:30:854,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),31,Invalid Socket: false
+2016-07-13 14:16:26:389,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: nil, opcode: invalid, final: true
+2016-07-13 14:16:26:390,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),31,Invalid Socket: false
+2016-07-13 14:24:25:321,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: nil, opcode: invalid, final: true
+2016-07-13 14:24:25:322,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),31,Invalid Socket: false
+2016-07-13 14:27:40:098,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),43,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 14:27:40:104,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),133,true
+2016-07-13 14:29:54:902,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),43,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 14:29:54:911,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),133,false
+2016-07-13 14:30:01:619,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),43,string: Optional("123_battleresult"), opcode: text, final: true
+2016-07-13 14:34:19:529,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),43,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 14:34:19:544,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),133,true
+2016-07-13 14:34:20:106,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),43,string: Optional(""), opcode: pong, final: true
+2016-07-13 14:34:55:519,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),43,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 14:34:55:525,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),133,true
+2016-07-13 14:34:56:687,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),43,string: Optional(""), opcode: pong, final: true
+2016-07-13 14:35:47:677,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),43,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 14:35:47:683,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),133,true
+2016-07-13 14:36:10:780,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),43,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 14:36:10:787,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),133,true
+2016-07-13 14:36:12:214,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),43,string: Optional(""), opcode: pong, final: true
+2016-07-13 14:54:30:094,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),43,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 14:54:30:101,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),136,true
+2016-07-13 14:54:31:445,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),43,string: Optional(""), opcode: pong, final: true
+2016-07-13 14:59:22:336,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),43,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 14:59:22:350,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),138,true
+2016-07-13 14:59:23:184,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),43,string: Optional(""), opcode: pong, final: true
+2016-07-13 15:00:37:344,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),43,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 15:00:37:360,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),138,true
+2016-07-13 15:00:58:493,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),43,string: nil, opcode: invalid, final: true
+2016-07-13 15:00:58:494,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),48,Invalid Socket: false
+2016-07-13 15:03:09:744,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),43,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 15:03:09:751,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),139,true
+2016-07-13 15:12:47:550,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),43,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 15:12:47:557,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),139,true
+2016-07-13 15:13:26:498,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),43,string: Optional("123_battleresult"), opcode: text, final: true
+2016-07-13 15:23:11:112,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("1111111111111"), opcode: binary, final: true
+2016-07-13 15:29:01:490,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("1111111111111"), opcode: binary, final: true
+2016-07-13 15:29:20:046,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("1111111111111"), opcode: binary, final: true
+2016-07-13 15:30:19:594,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 15:30:19:600,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),141,true
+2016-07-13 15:30:20:590,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional(""), opcode: pong, final: true
+2016-07-13 15:32:07:528,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 15:32:07:534,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),141,true
+2016-07-13 15:32:07:622,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional(""), opcode: pong, final: true
+2016-07-13 15:48:49:146,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 15:48:49:154,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),141,true
+2016-07-13 15:48:50:859,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional(""), opcode: pong, final: true
+2016-07-13 15:49:22:152,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_match"), opcode: text, final: true
+2016-07-13 15:49:22:153,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),141,true
+2016-07-13 15:49:22:903,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional(""), opcode: pong, final: true
+2016-07-13 15:52:29:088,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 15:52:29:095,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),141,true
+2016-07-13 15:52:30:637,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional(""), opcode: pong, final: true
+2016-07-13 15:52:32:052,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_match"), opcode: text, final: true
+2016-07-13 15:52:32:053,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),141,true
+2016-07-13 15:52:32:632,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional(""), opcode: pong, final: true
+2016-07-13 15:53:13:091,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 15:53:13:107,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),141,true
+2016-07-13 15:53:13:983,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_match"), opcode: text, final: true
+2016-07-13 15:53:13:985,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),141,true
+2016-07-13 15:53:17:772,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-13 15:53:18:433,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-13 15:53:18:683,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-13 15:53:19:681,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_battleresult"), opcode: text, final: true
+2016-07-13 15:53:20:707,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_battleresult"), opcode: text, final: true
+2016-07-13 15:53:28:924,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: nil, opcode: invalid, final: true
+2016-07-13 15:53:28:924,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),50,Invalid Socket: false
+2016-07-13 15:53:28:931,DEBUG,BTBattleField.swift,saveRecord(),149,PerfectLib.File exists BUT SHOULD NOT EXIST
+2016-07-13 16:10:50:647,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:10:50:653,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),141,true
+2016-07-13 16:10:52:064,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional(""), opcode: pong, final: true
+2016-07-13 16:15:03:843,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:15:03:850,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),141,true
+2016-07-13 16:15:04:557,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional(""), opcode: pong, final: true
+2016-07-13 16:18:04:871,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:18:04:877,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),141,true
+2016-07-13 16:18:05:717,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional(""), opcode: pong, final: true
+2016-07-13 16:19:28:695,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:19:28:701,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),141,true
+2016-07-13 16:19:29:005,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional(""), opcode: pong, final: true
+2016-07-13 16:20:27:089,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:20:27:096,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),141,true
+2016-07-13 16:20:28:330,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional(""), opcode: pong, final: true
+2016-07-13 16:21:22:224,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:21:22:238,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),141,true
+2016-07-13 16:21:22:515,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional(""), opcode: pong, final: true
+2016-07-13 16:23:07:076,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:23:07:082,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),141,true
+2016-07-13 16:23:07:966,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional(""), opcode: pong, final: true
+2016-07-13 16:24:54:854,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:24:54:860,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),141,true
+2016-07-13 16:24:55:558,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional(""), opcode: pong, final: true
+2016-07-13 16:27:15:452,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:27:15:466,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),141,true
+2016-07-13 16:27:16:134,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional(""), opcode: pong, final: true
+2016-07-13 16:29:29:422,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:29:29:428,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),141,true
+2016-07-13 16:29:30:023,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional(""), opcode: pong, final: true
+2016-07-13 16:30:14:962,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:30:14:968,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),141,true
+2016-07-13 16:30:15:745,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional(""), opcode: pong, final: true
+2016-07-13 16:33:11:670,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_battleresult"), opcode: text, final: true
+2016-07-13 16:33:12:182,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional(""), opcode: pong, final: true
+2016-07-13 16:35:31:414,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:35:31:420,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,true
+2016-07-13 16:36:13:797,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_battleresult"), opcode: text, final: true
+2016-07-13 16:36:13:800,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional(""), opcode: pong, final: true
+2016-07-13 16:37:30:098,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:37:30:104,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,true
+2016-07-13 16:38:09:771,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:38:09:780,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 16:38:09:782,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),27,data: Optional([]), opcode: pong, final: true
+2016-07-13 16:38:12:117,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:38:12:118,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 16:38:12:120,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),27,data: Optional([]), opcode: pong, final: true
+2016-07-13 16:38:52:967,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:38:52:973,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,true
+2016-07-13 16:38:54:765,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:38:54:766,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 16:38:54:768,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),27,data: Optional([]), opcode: pong, final: true
+2016-07-13 16:38:56:250,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:38:56:252,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 16:38:56:253,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),27,data: Optional([]), opcode: pong, final: true
+2016-07-13 16:39:00:033,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:39:00:034,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 16:39:00:036,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),27,data: Optional([]), opcode: pong, final: true
+2016-07-13 16:39:05:230,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:39:05:231,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 16:39:05:232,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),27,data: Optional([]), opcode: pong, final: true
+2016-07-13 16:39:45:708,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:39:45:715,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,true
+2016-07-13 16:39:50:329,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:39:50:339,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 16:39:50:341,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional(""), opcode: pong, final: true
+2016-07-13 16:39:50:342,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),27,data: Optional([]), opcode: pong, final: true
+2016-07-13 16:43:31:682,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:43:31:688,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,true
+2016-07-13 16:43:34:314,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:43:34:316,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 16:43:34:317,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),27,data: Optional([]), opcode: pong, final: true
+2016-07-13 16:43:56:577,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:43:56:578,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 16:43:56:580,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional(""), opcode: pong, final: true
+2016-07-13 16:43:56:581,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),27,data: Optional([]), opcode: pong, final: true
+2016-07-13 16:45:10:639,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:45:10:645,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,true
+2016-07-13 16:45:21:994,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:45:21:995,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 16:45:21:996,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),27,data: Optional([]), opcode: pong, final: true
+2016-07-13 16:45:44:720,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:45:44:721,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 16:45:44:723,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional(""), opcode: pong, final: true
+2016-07-13 16:45:44:724,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),27,data: Optional([]), opcode: pong, final: true
+2016-07-13 16:45:55:420,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: nil, opcode: invalid, final: true
+2016-07-13 16:45:55:421,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),53,Invalid Socket: false
+2016-07-13 16:46:15:109,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:46:15:110,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,true
+2016-07-13 16:46:18:445,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:46:18:448,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 16:46:18:448,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),27,data: Optional([]), opcode: pong, final: true
+2016-07-13 16:46:19:287,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:46:19:288,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 16:46:19:289,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),27,data: Optional([]), opcode: pong, final: true
+2016-07-13 16:46:19:937,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:46:19:938,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 16:46:19:939,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),27,data: Optional([]), opcode: pong, final: true
+2016-07-13 16:46:20:385,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:46:20:387,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 16:46:20:388,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),27,data: Optional([]), opcode: pong, final: true
+2016-07-13 16:46:20:625,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:46:20:626,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 16:46:20:627,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),27,data: Optional([]), opcode: pong, final: true
+2016-07-13 16:46:20:835,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:46:20:837,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 16:46:20:838,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),27,data: Optional([]), opcode: pong, final: true
+2016-07-13 16:46:21:018,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:46:21:020,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 16:46:21:020,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),27,data: Optional([]), opcode: pong, final: true
+2016-07-13 16:46:21:591,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:46:21:592,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 16:46:21:594,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),27,data: Optional([]), opcode: pong, final: true
+2016-07-13 16:46:21:606,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:46:21:608,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 16:46:21:609,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),27,data: Optional([]), opcode: pong, final: true
+2016-07-13 16:46:21:761,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:46:21:762,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 16:46:21:763,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),27,data: Optional([]), opcode: pong, final: true
+2016-07-13 16:46:21:928,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:46:21:929,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 16:46:21:929,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),27,data: Optional([]), opcode: pong, final: true
+2016-07-13 16:46:22:073,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:46:22:075,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 16:46:22:075,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),27,data: Optional([]), opcode: pong, final: true
+2016-07-13 16:46:22:225,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:46:22:226,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 16:46:22:227,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),27,data: Optional([]), opcode: pong, final: true
+2016-07-13 16:46:22:371,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:46:22:372,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 16:46:22:373,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),27,data: Optional([]), opcode: pong, final: true
+2016-07-13 16:46:22:521,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:46:22:522,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 16:46:22:523,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),27,data: Optional([]), opcode: pong, final: true
+2016-07-13 16:46:22:673,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:46:22:674,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 16:46:22:675,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),27,data: Optional([]), opcode: pong, final: true
+2016-07-13 16:46:40:779,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 16:46:40:780,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 16:46:40:781,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),27,data: Optional([]), opcode: pong, final: true
+2016-07-13 17:02:15:037,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 17:02:15:052,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,true
+2016-07-13 17:02:25:355,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 17:02:25:356,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 17:02:27:490,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: nil, opcode: invalid, final: true
+2016-07-13 17:02:27:491,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),53,Invalid Socket: false
+2016-07-13 17:03:02:725,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: nil, opcode: invalid, final: true
+2016-07-13 17:03:02:725,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),53,Invalid Socket: false
+2016-07-13 17:17:28:415,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 17:17:28:416,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,true
+2016-07-13 17:17:32:797,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 17:17:32:798,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 17:17:36:154,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 17:17:36:154,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),144,false
+2016-07-13 17:17:40:342,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: nil, opcode: invalid, final: true
+2016-07-13 17:17:40:343,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),53,Invalid Socket: false
+2016-07-13 17:24:29:683,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 17:24:29:689,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),138,true
+2016-07-13 17:24:30:573,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_match"), opcode: text, final: true
+2016-07-13 17:24:30:575,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),138,true
+2016-07-13 17:24:33:585,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: nil, opcode: invalid, final: true
+2016-07-13 17:24:33:585,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),51,Invalid Socket: false
+2016-07-13 17:24:35:030,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: nil, opcode: invalid, final: true
+2016-07-13 17:24:35:031,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),51,Invalid Socket: false
+2016-07-13 17:24:54:064,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 17:24:54:069,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),138,true
+2016-07-13 17:24:55:235,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 17:24:55:236,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),138,false
+2016-07-13 17:24:57:864,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_match"), opcode: text, final: true
+2016-07-13 17:24:57:866,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),138,true
+2016-07-13 17:25:03:018,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: nil, opcode: invalid, final: true
+2016-07-13 17:25:03:019,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),51,Invalid Socket: false
+2016-07-13 17:25:05:731,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 17:25:05:732,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),138,true
+2016-07-13 17:25:06:788,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 17:25:06:789,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),138,false
+2016-07-13 17:25:08:904,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: nil, opcode: invalid, final: true
+2016-07-13 17:25:08:904,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),51,Invalid Socket: false
+2016-07-13 17:25:11:426,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_match"), opcode: text, final: true
+2016-07-13 17:25:11:427,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),138,true
+2016-07-13 17:25:48:170,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 17:25:48:176,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),138,true
+2016-07-13 17:25:49:291,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_match"), opcode: text, final: true
+2016-07-13 17:25:49:293,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),138,true
+2016-07-13 17:25:55:860,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: nil, opcode: invalid, final: true
+2016-07-13 17:25:55:860,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),51,Invalid Socket: false
+2016-07-13 17:26:15:622,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 17:26:15:623,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),138,true
+2016-07-13 17:26:18:936,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 17:26:18:936,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),138,false
+2016-07-13 17:26:22:342,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: nil, opcode: invalid, final: true
+2016-07-13 17:26:22:343,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),51,Invalid Socket: false
+2016-07-13 17:26:30:798,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_match"), opcode: text, final: true
+2016-07-13 17:26:30:799,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),138,true
+2016-07-13 17:26:53:493,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: nil, opcode: invalid, final: true
+2016-07-13 17:26:53:494,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),51,Invalid Socket: false
+2016-07-13 17:26:55:685,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 17:26:55:686,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),138,true
+2016-07-13 17:26:56:788,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 17:26:56:789,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),138,false
+2016-07-13 17:26:58:835,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: nil, opcode: invalid, final: true
+2016-07-13 17:26:58:835,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),51,Invalid Socket: false
+2016-07-13 17:27:00:056,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_match"), opcode: text, final: true
+2016-07-13 17:27:00:057,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),138,true
+2016-07-13 17:35:30:253,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 17:35:30:267,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),138,true
+2016-07-13 17:35:31:552,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 17:35:31:553,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),138,false
+2016-07-13 17:35:33:701,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_match"), opcode: text, final: true
+2016-07-13 17:35:33:703,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),138,true
+2016-07-13 19:48:33:685,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 19:48:33:699,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 123 do command: match
+2016-07-13 19:48:34:604,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_match"), opcode: text, final: true
+2016-07-13 19:48:34:606,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 456 do command: match
+2016-07-13 19:48:36:560,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_battleresult"), opcode: text, final: true
+2016-07-13 19:48:36:560,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 123 do command: battleresult
+2016-07-13 19:48:37:770,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_battleresult"), opcode: text, final: true
+2016-07-13 19:48:37:771,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 456 do command: battleresult
+2016-07-13 19:48:37:781,DEBUG,BTBattleField.swift,saveRecord(),149,PerfectLib.File exists BUT SHOULD NOT EXIST
+2016-07-13 19:48:37:785,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: nil, opcode: invalid, final: true
+2016-07-13 19:48:37:786,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),51,Invalid Socket: false
+2016-07-13 19:50:51:318,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 19:50:51:334,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 123 do command: match
+2016-07-13 19:50:52:307,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_match"), opcode: text, final: true
+2016-07-13 19:50:52:308,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 456 do command: match
+2016-07-13 19:50:53:925,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_battleresult"), opcode: text, final: true
+2016-07-13 19:50:53:926,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 123 do command: battleresult
+2016-07-13 19:50:54:910,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_battleresult"), opcode: text, final: true
+2016-07-13 19:50:54:912,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 456 do command: battleresult
+2016-07-13 19:50:54:915,DEBUG,BTBattleField.swift,saveRecord(),149,PerfectLib.File exists BUT SHOULD NOT EXIST
+2016-07-13 19:50:54:925,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: nil, opcode: invalid, final: true
+2016-07-13 19:50:54:926,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),51,Invalid Socket: false
+2016-07-13 20:13:20:063,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 20:13:20:069,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 123
+2016-07-13 20:13:20:069,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 123 do command: match
+2016-07-13 20:13:21:415,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_match"), opcode: text, final: true
+2016-07-13 20:13:21:416,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 456
+2016-07-13 20:13:21:417,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 456 do command: match
+2016-07-13 20:13:21:757,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_1
+2016-07-13 20:14:07:707,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-13 20:14:07:707,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 123 do command: castspell
+2016-07-13 20:14:09:041,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-13 20:14:09:042,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 456 do command: castspell
+2016-07-13 20:14:09:530,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-13 20:14:09:531,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 456 do command: castspell
+2016-07-13 20:14:10:562,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_battleresult"), opcode: text, final: true
+2016-07-13 20:14:10:563,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 123 do command: battleresult
+2016-07-13 20:14:12:204,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_battleresult"), opcode: text, final: true
+2016-07-13 20:14:12:204,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 456 do command: battleresult
+2016-07-13 20:14:12:205,DEBUG,BTBattleField.swift,deinit,124,battle field: BattleField_1
+2016-07-13 20:14:12:206,DEBUG,BTBattleField.swift,saveRecord(),151,PerfectLib.File exists BUT SHOULD NOT EXIST
+2016-07-13 20:14:15:579,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 20:14:15:580,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 123
+2016-07-13 20:14:15:581,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 123 do command: match
+2016-07-13 20:14:16:929,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 20:14:16:930,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 123 do command: match
+2016-07-13 20:14:28:387,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 20:14:28:388,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 123 do command: match
+2016-07-13 20:14:30:668,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_match"), opcode: text, final: true
+2016-07-13 20:14:30:668,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 456
+2016-07-13 20:14:30:669,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 456 do command: match
+2016-07-13 20:14:30:910,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_2
+2016-07-13 20:14:32:993,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: nil, opcode: invalid, final: true
+2016-07-13 20:14:32:994,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),51,Invalid Socket: false
+2016-07-13 20:14:44:887,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-13 20:14:44:888,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 456 do command: castspell
+2016-07-13 20:14:45:035,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-13 20:14:45:036,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 456 do command: castspell
+2016-07-13 20:14:45:748,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-13 20:14:45:750,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 456 do command: castspell
+2016-07-13 20:14:46:011,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_castspell_{\n  \"123\" : \"hahaha\"\n}"), opcode: text, final: true
+2016-07-13 20:14:46:011,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 456 do command: castspell
+2016-07-13 20:14:48:691,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 20:14:48:692,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 123 do command: match
+2016-07-13 20:14:51:243,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_match"), opcode: text, final: true
+2016-07-13 20:14:51:243,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 456 do command: match
+2016-07-13 20:14:53:883,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_battleresult"), opcode: text, final: true
+2016-07-13 20:14:53:884,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 123 do command: battleresult
+2016-07-13 20:14:55:104,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_battleresult"), opcode: text, final: true
+2016-07-13 20:14:55:104,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 456 do command: battleresult
+2016-07-13 20:14:55:105,DEBUG,BTBattleField.swift,deinit,124,battle field: BattleField_2
+2016-07-13 20:14:55:106,DEBUG,BTBattleField.swift,saveRecord(),151,PerfectLib.File exists BUT SHOULD NOT EXIST
+2016-07-13 20:14:59:032,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_match"), opcode: text, final: true
+2016-07-13 20:14:59:033,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 456
+2016-07-13 20:14:59:034,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 456 do command: match
+2016-07-13 20:15:00:989,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 20:15:00:990,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 123
+2016-07-13 20:15:00:991,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 123 do command: match
+2016-07-13 20:15:01:983,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_3
+2016-07-13 20:15:09:588,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_battleresult"), opcode: text, final: true
+2016-07-13 20:15:09:589,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 123 do command: battleresult
+2016-07-13 20:15:13:961,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_battleresult"), opcode: text, final: true
+2016-07-13 20:15:13:961,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 456 do command: battleresult
+2016-07-13 20:15:13:962,DEBUG,BTBattleField.swift,deinit,124,battle field: BattleField_3
+2016-07-13 20:15:13:962,DEBUG,BTBattleField.swift,saveRecord(),151,PerfectLib.File exists BUT SHOULD NOT EXIST
+2016-07-13 20:15:13:971,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: nil, opcode: invalid, final: true
+2016-07-13 20:15:13:973,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),51,Invalid Socket: false
+2016-07-13 20:15:16:992,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 20:15:16:993,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 123
+2016-07-13 20:15:16:994,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 123 do command: match
+2016-07-13 20:15:19:589,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_match"), opcode: text, final: true
+2016-07-13 20:15:19:590,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 456
+2016-07-13 20:15:19:591,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 456 do command: match
+2016-07-13 20:15:20:045,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_4
+2016-07-13 20:15:21:598,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: nil, opcode: invalid, final: true
+2016-07-13 20:15:21:600,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),51,Invalid Socket: false
+2016-07-13 20:17:37:899,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 20:17:37:900,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 123 do command: match
+2016-07-13 20:17:39:821,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: nil, opcode: invalid, final: true
+2016-07-13 20:17:39:823,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),51,Invalid Socket: false
+2016-07-13 20:17:44:040,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_match"), opcode: text, final: true
+2016-07-13 20:17:44:041,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 456 do command: match
+2016-07-13 20:17:46:875,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 20:17:46:876,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 123 do command: match
+2016-07-13 20:17:48:843,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 20:17:48:843,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 123 do command: match
+2016-07-13 20:17:50:201,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_match"), opcode: text, final: true
+2016-07-13 20:17:50:201,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 456 do command: match
+2016-07-13 20:17:55:813,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_battleresult"), opcode: text, final: true
+2016-07-13 20:17:55:814,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 123 do command: battleresult
+2016-07-13 20:17:56:792,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_battleresult"), opcode: text, final: true
+2016-07-13 20:17:56:792,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 456 do command: battleresult
+2016-07-13 20:17:56:793,DEBUG,BTBattleField.swift,deinit,124,battle field: BattleField_4
+2016-07-13 20:17:56:794,DEBUG,BTBattleField.swift,saveRecord(),151,PerfectLib.File exists BUT SHOULD NOT EXIST
+2016-07-13 20:17:57:488,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: nil, opcode: invalid, final: true
+2016-07-13 20:17:57:489,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),51,Invalid Socket: false
+2016-07-13 20:17:58:409,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: nil, opcode: invalid, final: true
+2016-07-13 20:17:58:411,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),51,Invalid Socket: false
+2016-07-13 20:18:00:775,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_match"), opcode: text, final: true
+2016-07-13 20:18:00:776,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 456
+2016-07-13 20:18:00:777,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 456 do command: match
+2016-07-13 20:18:01:671,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 20:18:01:672,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 123
+2016-07-13 20:18:01:673,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 123 do command: match
+2016-07-13 20:18:02:454,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_5
+2016-07-13 20:18:06:298,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: nil, opcode: invalid, final: true
+2016-07-13 20:18:06:300,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),51,Invalid Socket: false
+2016-07-13 20:20:51:057,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 20:20:51:070,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 123
+2016-07-13 20:20:51:071,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 123 do command: match
+2016-07-13 20:20:51:880,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_match"), opcode: text, final: true
+2016-07-13 20:20:51:880,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 456
+2016-07-13 20:20:51:881,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 456 do command: match
+2016-07-13 20:20:52:502,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_1
+2016-07-13 20:20:54:786,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: nil, opcode: invalid, final: true
+2016-07-13 20:20:54:788,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),51,Invalid Socket: false
+2016-07-13 20:22:45:983,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("123_match"), opcode: text, final: true
+2016-07-13 20:22:45:989,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 123
+2016-07-13 20:22:45:990,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 123 do command: match
+2016-07-13 20:22:47:057,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: Optional("456_match"), opcode: text, final: true
+2016-07-13 20:22:47:058,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 456
+2016-07-13 20:22:47:059,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),84,socket: 456 do command: match
+2016-07-13 20:22:47:365,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_1
+2016-07-13 20:22:49:253,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),45,string: nil, opcode: invalid, final: true
+2016-07-13 20:22:49:255,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),51,Invalid Socket: false
+2016-07-13 20:28:42:948,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 123
+2016-07-13 20:28:42:954,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:28:43:994,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 456
+2016-07-13 20:28:43:995,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 456 do command: match
+2016-07-13 20:28:44:229,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_1
+2016-07-13 20:28:44:229,DEBUG,BTBattleFieldState.swift,didEnterWithPreviousState,23,previous: nil current: SLBattleServer.BTBattleFieldSynchronizing
+2016-07-13 20:28:44:230,DEBUG,BTBattleFieldState.swift,didEnterWithPreviousState,23,previous: Optional(<SLBattleServer.BTBattleFieldSynchronizing: 0x1020036c0>) current: SLBattleServer.BTBattleFieldFighting
+2016-07-13 20:34:45:648,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 123
+2016-07-13 20:34:45:662,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTSocketConnected
+2016-07-13 20:34:45:663,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:34:45:663,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketConnected: 0x100f05ba0>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:34:46:490,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 456
+2016-07-13 20:34:46:491,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTSocketConnected
+2016-07-13 20:34:46:492,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 456 do command: match
+2016-07-13 20:34:46:493,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketConnected: 0x10241c110>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:34:47:496,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_1
+2016-07-13 20:34:47:497,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTBattleFieldSynchronizing
+2016-07-13 20:34:47:497,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldSynchronizing: 0x102104350>) current: SLBattleServer.BTBattleFieldFighting
+2016-07-13 20:34:47:498,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x100f05cb0>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:34:47:499,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x102408960>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:34:48:065,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: castspell
+2016-07-13 20:34:49:151,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 456 do command: castspell
+2016-07-13 20:34:51:450,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: battleresult
+2016-07-13 20:34:51:451,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x100f05e80>) current: SLBattleServer.BTSocketEnding
+2016-07-13 20:34:53:712,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),49,Invalid Socket: false
+2016-07-13 20:34:53:713,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 456
+2016-07-13 20:34:53:714,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x102420ec0>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:34:53:715,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldFighting: 0x102108560>) current: SLBattleServer.BTBattleFieldDisconnected
+2016-07-13 20:34:58:334,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 123
+2016-07-13 20:34:58:334,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTSocketConnected
+2016-07-13 20:34:58:335,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:34:58:336,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketConnected: 0x10210db10>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:35:12:498,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:35:16:915,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:35:17:773,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:35:26:887,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 456 do command: match
+2016-07-13 20:35:26:888,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x10240b580>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:35:27:611,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_2
+2016-07-13 20:35:27:611,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTBattleFieldSynchronizing
+2016-07-13 20:35:27:612,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldSynchronizing: 0x100f0b1d0>) current: SLBattleServer.BTBattleFieldFighting
+2016-07-13 20:35:27:612,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x102408960>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:35:27:612,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x10210db30>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:35:35:893,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: castspell
+2016-07-13 20:35:37:857,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: castspell
+2016-07-13 20:35:39:781,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 456 do command: match
+2016-07-13 20:35:43:115,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 456 do command: match
+2016-07-13 20:35:43:544,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 456 do command: match
+2016-07-13 20:35:44:480,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 456 do command: castspell
+2016-07-13 20:35:45:176,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 456 do command: castspell
+2016-07-13 20:35:46:231,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: castspell
+2016-07-13 20:35:46:830,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: castspell
+2016-07-13 20:36:54:890,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: castspell
+2016-07-13 20:36:55:235,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: castspell
+2016-07-13 20:36:55:456,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: castspell
+2016-07-13 20:36:56:664,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: castspell
+2016-07-13 20:36:56:855,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: castspell
+2016-07-13 20:36:59:647,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: castspell
+2016-07-13 20:37:04:939,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: castspell
+2016-07-13 20:37:05:346,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: castspell
+2016-07-13 20:37:16:271,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: castspell
+2016-07-13 20:37:17:090,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: castspell
+2016-07-13 20:37:21:775,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: castspell
+2016-07-13 20:37:41:803,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),49,Invalid Socket: false
+2016-07-13 20:37:41:805,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 456
+2016-07-13 20:37:41:806,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x102420ec0>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:37:41:806,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldFighting: 0x100f0b700>) current: SLBattleServer.BTBattleFieldDisconnected
+2016-07-13 20:37:45:062,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:37:50:052,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:37:50:684,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:37:52:778,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 456 do command: match
+2016-07-13 20:37:52:778,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x10240b580>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:37:55:970,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:37:57:052,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:37:57:352,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:40:46:685,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: battleresult
+2016-07-13 20:40:46:687,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x10210abd0>) current: SLBattleServer.BTSocketEnding
+2016-07-13 20:40:46:687,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldDisconnected: 0x100f0b740>) current: SLBattleServer.BTBattleFieldEnding
+2016-07-13 20:40:46:688,DEBUG,BTBattleField.swift,deinit,124,battle field: BattleField_2
+2016-07-13 20:40:46:689,DEBUG,BTBattleField.swift,saveRecord(),151,PerfectLib.File exists BUT SHOULD NOT EXIST
+2016-07-13 20:40:55:760,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 456 do command: match
+2016-07-13 20:40:56:303,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 456 do command: match
+2016-07-13 20:40:57:647,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 123
+2016-07-13 20:40:57:648,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTSocketConnected
+2016-07-13 20:40:57:648,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:40:57:649,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketConnected: 0x10210b340>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:40:58:536,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_3
+2016-07-13 20:40:58:537,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTBattleFieldSynchronizing
+2016-07-13 20:40:58:538,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldSynchronizing: 0x10210c3e0>) current: SLBattleServer.BTBattleFieldFighting
+2016-07-13 20:40:58:538,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x102408960>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:40:58:539,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x10210db20>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:41:05:116,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),49,Invalid Socket: false
+2016-07-13 20:41:05:125,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 456
+2016-07-13 20:41:05:126,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x102420ec0>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:41:05:127,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldFighting: 0x10210cfc0>) current: SLBattleServer.BTBattleFieldDisconnected
+2016-07-13 20:41:05:127,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 123
+2016-07-13 20:41:05:128,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x10210e260>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:41:06:240,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),49,Invalid Socket: false
+2016-07-13 20:41:06:242,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 456
+2016-07-13 20:41:06:243,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x10240b580>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:41:06:244,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 123
+2016-07-13 20:41:06:244,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x10210e2a0>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:41:08:403,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 456 do command: match
+2016-07-13 20:41:08:404,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x10240b580>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:41:12:335,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 456 do command: match
+2016-07-13 20:41:14:411,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:41:14:411,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x10210e2a0>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:41:14:566,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_4
+2016-07-13 20:41:14:567,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTBattleFieldSynchronizing
+2016-07-13 20:41:14:568,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldSynchronizing: 0x102112410>) current: SLBattleServer.BTBattleFieldFighting
+2016-07-13 20:41:14:568,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x102408960>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:41:14:568,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x10210db20>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:41:20:532,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:41:21:122,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:41:21:501,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:41:22:772,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 456 do command: match
+2016-07-13 20:41:24:985,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),49,Invalid Socket: false
+2016-07-13 20:41:24:986,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 456
+2016-07-13 20:41:24:988,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x102420ec0>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:41:24:988,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldFighting: 0x102112430>) current: SLBattleServer.BTBattleFieldDisconnected
+2016-07-13 20:41:24:989,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 123
+2016-07-13 20:41:24:989,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x10210e260>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:41:25:736,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),49,Invalid Socket: false
+2016-07-13 20:41:25:737,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 456
+2016-07-13 20:41:25:739,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x10240b580>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:41:25:739,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 123
+2016-07-13 20:41:25:740,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x10210e2a0>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:43:23:309,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 123
+2016-07-13 20:43:23:316,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTSocketConnected
+2016-07-13 20:43:23:316,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:43:23:317,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketConnected: 0x100f17f80>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:43:30:296,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 456
+2016-07-13 20:43:30:296,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTSocketConnected
+2016-07-13 20:43:30:297,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 456 do command: match
+2016-07-13 20:43:30:298,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketConnected: 0x102302010>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:43:30:750,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_1
+2016-07-13 20:43:30:750,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTBattleFieldSynchronizing
+2016-07-13 20:43:30:751,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldSynchronizing: 0x102502180>) current: SLBattleServer.BTBattleFieldFighting
+2016-07-13 20:43:30:752,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x100f0f9b0>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:43:30:752,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x102301a20>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:43:32:634,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),49,Invalid Socket: false
+2016-07-13 20:43:32:636,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 123
+2016-07-13 20:43:32:637,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x100f02b40>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:43:32:637,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldFighting: 0x1025022b0>) current: SLBattleServer.BTBattleFieldDisconnected
+2016-07-13 20:43:33:488,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),49,Invalid Socket: false
+2016-07-13 20:43:33:490,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 123
+2016-07-13 20:43:33:490,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x100f081a0>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:43:33:491,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 456
+2016-07-13 20:43:33:491,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x102301f50>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:43:39:746,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:43:39:747,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x100f081a0>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:43:42:238,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:43:44:823,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 456 do command: match
+2016-07-13 20:43:44:824,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x102301f90>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:43:45:809,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_2
+2016-07-13 20:43:45:809,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTBattleFieldSynchronizing
+2016-07-13 20:43:45:810,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldSynchronizing: 0x10200d9e0>) current: SLBattleServer.BTBattleFieldFighting
+2016-07-13 20:43:45:810,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x100f0f9b0>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:43:45:811,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x102301a20>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:43:53:865,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 456 do command: match
+2016-07-13 20:43:55:749,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:44:43:216,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: castspell
+2016-07-13 20:44:45:074,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 456 do command: castspell
+2016-07-13 20:44:55:507,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: castspell
+2016-07-13 20:45:10:576,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: castspell
+2016-07-13 20:45:15:754,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: castspell
+2016-07-13 20:45:30:914,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: castspell
+2016-07-13 20:45:33:471,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 456 do command: castspell
+2016-07-13 20:45:37:705,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),49,Invalid Socket: false
+2016-07-13 20:45:37:706,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 123
+2016-07-13 20:45:37:707,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x100f02b40>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:45:37:707,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),49,Invalid Socket: false
+2016-07-13 20:45:37:707,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 123
+2016-07-13 20:45:37:707,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldFighting: 0x10200de40>) current: SLBattleServer.BTBattleFieldDisconnected
+2016-07-13 20:45:37:708,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x100f081a0>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:45:37:708,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 456
+2016-07-13 20:45:37:709,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 456
+2016-07-13 20:45:37:709,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x102301f50>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:45:37:709,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x102301f50>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:45:51:657,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:45:51:666,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x100f081a0>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:45:58:881,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:46:01:476,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 456 do command: match
+2016-07-13 20:46:01:476,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x102301f90>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:46:02:126,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_3
+2016-07-13 20:46:02:126,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTBattleFieldSynchronizing
+2016-07-13 20:46:02:127,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldSynchronizing: 0x102308970>) current: SLBattleServer.BTBattleFieldFighting
+2016-07-13 20:46:02:128,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x100f0f9b0>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:46:02:128,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x102301a20>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:47:16:872,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 123
+2016-07-13 20:47:16:877,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTSocketConnected
+2016-07-13 20:47:16:878,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:47:16:878,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketConnected: 0x10200bed0>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:47:26:939,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:47:38:382,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 456
+2016-07-13 20:47:38:383,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTSocketConnected
+2016-07-13 20:47:38:384,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 456 do command: match
+2016-07-13 20:47:38:384,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketConnected: 0x102207430>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:47:38:434,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_1
+2016-07-13 20:47:38:435,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTBattleFieldSynchronizing
+2016-07-13 20:47:38:435,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldSynchronizing: 0x100f0f700>) current: SLBattleServer.BTBattleFieldFighting
+2016-07-13 20:47:38:436,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x10200dcc0>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:47:38:436,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x102207940>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:48:05:298,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),49,Invalid Socket: false
+2016-07-13 20:48:05:299,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 456
+2016-07-13 20:48:05:299,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x102207980>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:48:05:300,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldFighting: 0x100f0f830>) current: SLBattleServer.BTBattleFieldDisconnected
+2016-07-13 20:48:05:307,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),49,Invalid Socket: false
+2016-07-13 20:48:05:307,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 123
+2016-07-13 20:48:05:308,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x102009fc0>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:48:05:309,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 456
+2016-07-13 20:48:05:310,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x102207a00>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:48:19:695,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:48:19:696,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x1020128b0>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:48:21:397,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:48:23:244,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 456 do command: match
+2016-07-13 20:48:23:245,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x102207a00>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:48:23:543,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_2
+2016-07-13 20:48:23:543,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTBattleFieldSynchronizing
+2016-07-13 20:48:23:544,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldSynchronizing: 0x102011dd0>) current: SLBattleServer.BTBattleFieldFighting
+2016-07-13 20:48:23:545,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x10200dcc0>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:48:23:545,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x102207940>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:49:34:419,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 123
+2016-07-13 20:49:34:424,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTSocketConnected
+2016-07-13 20:49:34:424,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:49:34:425,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketConnected: 0x102217a40>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:49:36:641,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:49:38:328,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 456
+2016-07-13 20:49:38:329,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTSocketConnected
+2016-07-13 20:49:38:330,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 456 do command: match
+2016-07-13 20:49:38:331,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketConnected: 0x101800840>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:49:38:511,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_1
+2016-07-13 20:49:38:512,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTBattleFieldSynchronizing
+2016-07-13 20:49:38:513,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldSynchronizing: 0x101902900>) current: SLBattleServer.BTBattleFieldFighting
+2016-07-13 20:49:38:513,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x102208db0>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:49:38:514,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x1018009e0>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:49:45:026,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),49,Invalid Socket: false
+2016-07-13 20:49:45:027,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 123
+2016-07-13 20:49:45:029,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x10220d860>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:49:45:029,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldFighting: 0x1019028d0>) current: SLBattleServer.BTBattleFieldDisconnected
+2016-07-13 20:49:46:069,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),49,Invalid Socket: false
+2016-07-13 20:49:46:071,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 123
+2016-07-13 20:49:46:072,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x102205420>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:49:46:072,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 456
+2016-07-13 20:49:46:072,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x1018019d0>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:49:49:304,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:49:49:305,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x102205420>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:49:55:495,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:49:57:385,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 456 do command: match
+2016-07-13 20:49:57:386,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x101801a50>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:49:57:551,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_2
+2016-07-13 20:49:57:552,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTBattleFieldSynchronizing
+2016-07-13 20:49:57:553,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldSynchronizing: 0x101905490>) current: SLBattleServer.BTBattleFieldFighting
+2016-07-13 20:49:57:553,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x102208db0>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:49:57:554,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x1018009e0>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:49:59:399,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),49,Invalid Socket: false
+2016-07-13 20:49:59:401,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 123
+2016-07-13 20:49:59:401,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x10220d860>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:49:59:402,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldFighting: 0x1019099f0>) current: SLBattleServer.BTBattleFieldDisconnected
+2016-07-13 20:49:59:403,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 456
+2016-07-13 20:49:59:403,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x1018019d0>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:50:00:111,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),49,Invalid Socket: false
+2016-07-13 20:50:00:112,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 123
+2016-07-13 20:50:00:113,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x102205420>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:50:00:114,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 456
+2016-07-13 20:50:00:114,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x101801a50>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:50:02:777,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 123 do command: match
+2016-07-13 20:50:02:778,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x102205420>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:50:05:000,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),79,socket: 456 do command: match
+2016-07-13 20:50:05:001,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x101801a50>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:50:05:575,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_3
+2016-07-13 20:50:05:576,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTBattleFieldSynchronizing
+2016-07-13 20:50:05:577,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldSynchronizing: 0x101802ef0>) current: SLBattleServer.BTBattleFieldFighting
+2016-07-13 20:50:05:577,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x102208db0>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:50:05:578,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x1018009e0>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:50:57:501,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),49,Invalid Socket: false
+2016-07-13 20:50:57:511,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 123
+2016-07-13 20:50:57:511,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x10220d860>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:50:57:512,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldFighting: 0x101802960>) current: SLBattleServer.BTBattleFieldDisconnected
+2016-07-13 20:50:57:513,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 456
+2016-07-13 20:50:57:513,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x1018019d0>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:51:48:651,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 123
+2016-07-13 20:51:48:665,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTSocketConnected
+2016-07-13 20:51:48:666,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 123 do command: match
+2016-07-13 20:51:48:666,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketConnected: 0x100f078f0>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:51:49:513,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 456
+2016-07-13 20:51:49:514,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTSocketConnected
+2016-07-13 20:51:49:515,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 456 do command: match
+2016-07-13 20:51:49:516,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketConnected: 0x102203020>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:51:49:579,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_1
+2016-07-13 20:51:49:580,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTBattleFieldSynchronizing
+2016-07-13 20:51:49:581,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldSynchronizing: 0x1021047b0>) current: SLBattleServer.BTBattleFieldFighting
+2016-07-13 20:51:49:582,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x100f118f0>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:51:49:582,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x102202f80>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:51:50:813,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),52,Invalid Socket: false
+2016-07-13 20:51:50:815,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 123
+2016-07-13 20:51:50:816,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x100f06e00>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:51:50:817,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldFighting: 0x1021048c0>) current: SLBattleServer.BTBattleFieldDisconnected
+2016-07-13 20:51:53:437,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),52,Invalid Socket: false
+2016-07-13 20:51:53:439,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 123
+2016-07-13 20:51:53:440,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x100f11480>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:51:53:440,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 456
+2016-07-13 20:51:53:441,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x102203090>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:52:05:415,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 456 do command: match
+2016-07-13 20:52:05:415,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x1022030d0>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:52:07:360,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 123 do command: match
+2016-07-13 20:52:07:361,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x100f11480>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:52:07:635,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_2
+2016-07-13 20:52:07:636,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTBattleFieldSynchronizing
+2016-07-13 20:52:07:636,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldSynchronizing: 0x102107cb0>) current: SLBattleServer.BTBattleFieldFighting
+2016-07-13 20:52:07:637,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x100f118f0>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:52:07:638,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x102202f80>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:52:23:470,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),52,Invalid Socket: false
+2016-07-13 20:52:23:470,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),52,Invalid Socket: false
+2016-07-13 20:52:23:471,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 123
+2016-07-13 20:52:23:471,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 123
+2016-07-13 20:52:23:472,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x100f06e00>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:52:23:472,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x100f11480>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:52:23:472,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldFighting: 0x102107cd0>) current: SLBattleServer.BTBattleFieldDisconnected
+2016-07-13 20:52:23:472,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 456
+2016-07-13 20:52:23:472,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x102203090>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:52:23:473,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 456
+2016-07-13 20:52:23:473,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x1022030d0>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:57:54:472,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 123
+2016-07-13 20:57:54:479,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTSocketConnected
+2016-07-13 20:57:54:479,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 123 do command: match
+2016-07-13 20:57:54:480,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketConnected: 0x10211e660>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:57:55:334,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 456
+2016-07-13 20:57:55:334,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTSocketConnected
+2016-07-13 20:57:55:335,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 456 do command: match
+2016-07-13 20:57:55:336,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketConnected: 0x1020029e0>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:57:56:150,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_1
+2016-07-13 20:57:56:151,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTBattleFieldSynchronizing
+2016-07-13 20:57:56:151,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldSynchronizing: 0x102104770>) current: SLBattleServer.BTBattleFieldFighting
+2016-07-13 20:57:56:151,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x10210b9f0>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:57:56:152,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x102002050>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:57:57:863,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),52,Invalid Socket: false
+2016-07-13 20:57:57:864,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 123
+2016-07-13 20:57:57:864,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x10211c420>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:57:57:865,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldFighting: 0x1021082d0>) current: SLBattleServer.BTBattleFieldDisconnected
+2016-07-13 20:57:59:493,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 456 do command: battleresult
+2016-07-13 20:57:59:494,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x102001840>) current: SLBattleServer.BTSocketEnding
+2016-07-13 20:57:59:494,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldDisconnected: 0x102101bc0>) current: SLBattleServer.BTBattleFieldEnding
+2016-07-13 20:57:59:495,DEBUG,BTBattleField.swift,deinit,124,battle field: BattleField_1
+2016-07-13 20:57:59:496,DEBUG,BTBattleField.swift,saveRecord(),151,PerfectLib.File exists BUT SHOULD NOT EXIST
+2016-07-13 20:57:59:506,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),52,Invalid Socket: false
+2016-07-13 20:57:59:507,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 123
+2016-07-13 20:57:59:508,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x10211d4a0>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:58:02:756,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 456
+2016-07-13 20:58:02:757,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTSocketConnected
+2016-07-13 20:58:02:757,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 456 do command: match
+2016-07-13 20:58:02:758,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketConnected: 0x102504590>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:58:03:406,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 123 do command: match
+2016-07-13 20:58:03:406,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x10211d4a0>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:58:04:176,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_2
+2016-07-13 20:58:04:177,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTBattleFieldSynchronizing
+2016-07-13 20:58:04:178,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldSynchronizing: 0x1020032f0>) current: SLBattleServer.BTBattleFieldFighting
+2016-07-13 20:58:04:178,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x10210b9f0>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:58:04:179,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x1025002e0>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:58:09:383,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),52,Invalid Socket: false
+2016-07-13 20:58:09:385,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 123
+2016-07-13 20:58:09:386,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x10211c420>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:58:09:386,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldFighting: 0x102003310>) current: SLBattleServer.BTBattleFieldDisconnected
+2016-07-13 20:58:10:405,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),52,Invalid Socket: false
+2016-07-13 20:58:10:407,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 123
+2016-07-13 20:58:10:408,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x10211d4a0>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:58:10:408,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 456
+2016-07-13 20:58:10:409,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x102504440>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 20:58:15:206,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 123 do command: match
+2016-07-13 20:58:15:207,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x10211d4a0>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:58:16:239,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 456 do command: match
+2016-07-13 20:58:16:240,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x102505e20>) current: SLBattleServer.BTSocketMatching
+2016-07-13 20:58:17:209,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_3
+2016-07-13 20:58:17:210,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTBattleFieldSynchronizing
+2016-07-13 20:58:17:210,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldSynchronizing: 0x102507090>) current: SLBattleServer.BTBattleFieldFighting
+2016-07-13 20:58:17:211,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x10210b9f0>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:58:17:212,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x1025002e0>) current: SLBattleServer.BTSocketFighting
+2016-07-13 20:59:32:795,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 123 do command: battleresult
+2016-07-13 20:59:32:804,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x10211c420>) current: SLBattleServer.BTSocketEnding
+2016-07-13 20:59:35:360,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 456 do command: battleresult
+2016-07-13 20:59:35:361,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x102504440>) current: SLBattleServer.BTSocketEnding
+2016-07-13 20:59:35:362,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldFighting: 0x1025070b0>) current: SLBattleServer.BTBattleFieldEnding
+2016-07-13 20:59:35:362,DEBUG,BTBattleField.swift,deinit,124,battle field: BattleField_3
+2016-07-13 20:59:35:363,DEBUG,BTBattleField.swift,saveRecord(),151,PerfectLib.File exists BUT SHOULD NOT EXIST
+2016-07-13 21:01:54:486,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),52,Invalid Socket: false
+2016-07-13 21:01:57:731,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 123
+2016-07-13 21:01:57:732,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTSocketConnected
+2016-07-13 21:01:57:733,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 123 do command: match
+2016-07-13 21:01:57:734,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketConnected: 0x102202570>) current: SLBattleServer.BTSocketMatching
+2016-07-13 21:01:59:215,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),52,Invalid Socket: false
+2016-07-13 21:01:59:217,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 123
+2016-07-13 21:01:59:218,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x102202bc0>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 21:02:50:228,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 123
+2016-07-13 21:02:50:240,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTSocketConnected
+2016-07-13 21:02:50:240,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 123 do command: match
+2016-07-13 21:02:50:241,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketConnected: 0x102015c60>) current: SLBattleServer.BTSocketMatching
+2016-07-13 21:02:52:871,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),52,Invalid Socket: false
+2016-07-13 21:02:52:872,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 123
+2016-07-13 21:02:52:873,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x102013e00>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 21:03:18:534,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 123
+2016-07-13 21:03:18:540,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTSocketConnected
+2016-07-13 21:03:18:540,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 123 do command: match
+2016-07-13 21:03:18:541,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketConnected: 0x10200c230>) current: SLBattleServer.BTSocketMatching
+2016-07-13 21:03:19:669,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),52,Invalid Socket: false
+2016-07-13 21:03:19:671,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 123
+2016-07-13 21:03:19:672,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x1020152e0>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 21:11:16:611,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 123
+2016-07-13 21:11:16:625,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTSocketConnected
+2016-07-13 21:11:16:626,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 123 do command: match
+2016-07-13 21:11:16:627,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketConnected: 0x102305260>) current: SLBattleServer.BTSocketMatching
+2016-07-13 21:11:17:353,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 456
+2016-07-13 21:11:17:354,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTSocketConnected
+2016-07-13 21:11:17:355,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 456 do command: match
+2016-07-13 21:11:17:355,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketConnected: 0x102402dd0>) current: SLBattleServer.BTSocketMatching
+2016-07-13 21:11:17:792,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_1
+2016-07-13 21:11:17:794,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTBattleFieldSynchronizing
+2016-07-13 21:11:17:794,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldSynchronizing: 0x100f094c0>) current: SLBattleServer.BTBattleFieldFighting
+2016-07-13 21:11:17:795,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x102317ce0>) current: SLBattleServer.BTSocketFighting
+2016-07-13 21:11:17:796,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x102402ee0>) current: SLBattleServer.BTSocketFighting
+2016-07-13 21:11:18:481,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),52,Invalid Socket: false
+2016-07-13 21:11:18:482,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 456
+2016-07-13 21:11:18:484,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x102402f20>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 21:11:18:484,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldFighting: 0x100f05430>) current: SLBattleServer.BTBattleFieldDisconnected
+2016-07-13 21:11:18:485,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x102402f60>) current: SLBattleServer.BTSocketEnding
+2016-07-13 21:11:18:486,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldDisconnected: 0x100f0b540>) current: SLBattleServer.BTBattleFieldEnding
+2016-07-13 21:11:18:487,DEBUG,BTBattleField.swift,deinit,124,battle field: BattleField_1
+2016-07-13 21:11:18:487,DEBUG,BTBattleField.swift,saveRecord(),151,PerfectLib.File exists BUT SHOULD NOT EXIST
+2016-07-13 21:12:25:542,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 456
+2016-07-13 21:12:25:543,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTSocketConnected
+2016-07-13 21:12:25:544,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 456 do command: match
+2016-07-13 21:12:25:544,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketConnected: 0x102302d70>) current: SLBattleServer.BTSocketMatching
+2016-07-13 21:12:28:536,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),52,Invalid Socket: false
+2016-07-13 21:12:28:538,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 123
+2016-07-13 21:12:28:539,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x10231b8e0>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 21:12:28:539,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x102320390>) current: SLBattleServer.BTSocketEnding
+2016-07-13 21:12:29:920,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 123
+2016-07-13 21:12:29:921,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTSocketConnected
+2016-07-13 21:12:29:922,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 123 do command: match
+2016-07-13 21:12:29:922,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketConnected: 0x102406c70>) current: SLBattleServer.BTSocketMatching
+2016-07-13 21:12:29:970,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_2
+2016-07-13 21:12:29:971,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTBattleFieldSynchronizing
+2016-07-13 21:12:29:971,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldSynchronizing: 0x102401520>) current: SLBattleServer.BTBattleFieldFighting
+2016-07-13 21:12:29:972,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x10230bff0>) current: SLBattleServer.BTSocketFighting
+2016-07-13 21:12:29:972,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x102402cb0>) current: SLBattleServer.BTSocketFighting
+2016-07-13 21:12:31:453,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 123 do command: castspell
+2016-07-13 21:12:32:494,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 456 do command: castspell
+2016-07-13 21:12:33:431,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 456 do command: battleresult
+2016-07-13 21:12:33:432,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x102307520>) current: SLBattleServer.BTSocketEnding
+2016-07-13 21:12:35:641,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),52,Invalid Socket: false
+2016-07-13 21:12:35:642,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 123
+2016-07-13 21:12:35:643,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x100f00820>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 21:12:35:644,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldFighting: 0x102406ad0>) current: SLBattleServer.BTBattleFieldDisconnected
+2016-07-13 21:12:35:645,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x100f03170>) current: SLBattleServer.BTSocketEnding
+2016-07-13 21:12:35:645,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldDisconnected: 0x102406b10>) current: SLBattleServer.BTBattleFieldEnding
+2016-07-13 21:12:35:646,DEBUG,BTBattleField.swift,deinit,124,battle field: BattleField_2
+2016-07-13 21:12:35:646,DEBUG,BTBattleField.swift,saveRecord(),151,PerfectLib.File exists BUT SHOULD NOT EXIST
+2016-07-13 21:12:39:360,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 123
+2016-07-13 21:12:39:370,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTSocketConnected
+2016-07-13 21:12:39:371,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 123 do command: match
+2016-07-13 21:12:39:371,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketConnected: 0x100f109e0>) current: SLBattleServer.BTSocketMatching
+2016-07-13 21:12:40:857,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 123 do command: match
+2016-07-13 21:12:42:777,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 456
+2016-07-13 21:12:42:778,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTSocketConnected
+2016-07-13 21:12:42:778,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 456 do command: match
+2016-07-13 21:12:42:779,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketConnected: 0x100f03170>) current: SLBattleServer.BTSocketMatching
+2016-07-13 21:12:42:993,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_3
+2016-07-13 21:12:42:993,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTBattleFieldSynchronizing
+2016-07-13 21:12:42:994,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldSynchronizing: 0x102405a70>) current: SLBattleServer.BTBattleFieldFighting
+2016-07-13 21:12:42:994,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x100f0e520>) current: SLBattleServer.BTSocketFighting
+2016-07-13 21:12:42:995,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x100f035e0>) current: SLBattleServer.BTSocketFighting
+2016-07-13 21:12:44:050,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 456 do command: match
+2016-07-13 21:12:44:802,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 456 do command: match
+2016-07-13 21:12:45:178,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 456 do command: match
+2016-07-13 21:12:46:069,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 123 do command: match
+2016-07-13 21:12:46:232,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 123 do command: match
+2016-07-13 21:12:46:955,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 123 do command: castspell
+2016-07-13 21:12:47:420,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 123 do command: castspell
+2016-07-13 21:12:47:620,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 123 do command: castspell
+2016-07-13 21:12:48:989,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),52,Invalid Socket: false
+2016-07-13 21:12:48:990,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: 456
+2016-07-13 21:12:48:992,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x100f090f0>) current: SLBattleServer.BTSocketDisconnected
+2016-07-13 21:12:48:992,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldFighting: 0x10240ade0>) current: SLBattleServer.BTBattleFieldDisconnected
+2016-07-13 21:12:48:993,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketDisconnected: 0x100f11050>) current: SLBattleServer.BTSocketEnding
+2016-07-13 21:12:48:994,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldDisconnected: 0x102405ac0>) current: SLBattleServer.BTBattleFieldEnding
+2016-07-13 21:12:48:994,DEBUG,BTBattleField.swift,deinit,124,battle field: BattleField_3
+2016-07-13 21:12:48:994,DEBUG,BTBattleField.swift,saveRecord(),151,PerfectLib.File exists BUT SHOULD NOT EXIST
+2016-07-13 21:12:50:453,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 123 do command: match
+2016-07-13 21:12:50:776,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 123 do command: match
+2016-07-13 21:12:51:427,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 123 do command: match
+2016-07-13 21:12:53:061,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 123 do command: battleresult
+2016-07-13 21:12:53:062,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketFighting: 0x100f0e560>) current: SLBattleServer.BTSocketEnding
+2016-07-13 21:12:53:063,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),52,Invalid Socket: false
+2016-07-13 21:12:55:117,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 123
+2016-07-13 21:12:55:118,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTSocketConnected
+2016-07-13 21:12:55:119,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 123 do command: match
+2016-07-13 21:12:55:119,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketConnected: 0x1024048c0>) current: SLBattleServer.BTSocketMatching
+2016-07-13 21:12:56:789,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 456
+2016-07-13 21:12:56:790,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTSocketConnected
+2016-07-13 21:12:56:791,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 456 do command: match
+2016-07-13 21:12:56:792,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketConnected: 0x100f0f1a0>) current: SLBattleServer.BTSocketMatching
+2016-07-13 21:12:57:027,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_4
+2016-07-13 21:12:57:035,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: SLBattleServer.BTBattleFieldSynchronizing
+2016-07-13 21:12:57:036,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTBattleFieldSynchronizing: 0x102324390>) current: SLBattleServer.BTBattleFieldFighting
+2016-07-13 21:12:57:037,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x10240af70>) current: SLBattleServer.BTSocketFighting
+2016-07-13 21:12:57:037,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketMatching: 0x100f113c0>) current: SLBattleServer.BTSocketFighting
+2016-07-13 21:12:57:318,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 456 do command: match
+2016-07-13 21:12:57:923,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 456 do command: match
+2016-07-13 21:12:59:475,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 123 do command: castspell
+2016-07-13 21:13:00:456,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 456 do command: castspell
+2016-07-13 21:14:55:141,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 123
+2016-07-13 21:14:55:147,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTSocketConnected
+2016-07-13 21:14:55:147,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 123 do command: match
+2016-07-13 21:14:55:148,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(<SLBattleServer.BTSocketConnected: 0x1020082a0>) current: BTSocketMatching
+2016-07-13 21:15:20:411,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 123
+2016-07-13 21:15:20:417,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTSocketConnected
+2016-07-13 21:15:20:418,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 123 do command: match
+2016-07-13 21:15:20:418,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketConnected) current: BTSocketMatching

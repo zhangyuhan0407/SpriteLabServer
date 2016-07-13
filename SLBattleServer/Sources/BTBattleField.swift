@@ -24,103 +24,68 @@ enum BattleFieldStatus {
 let BattleRecordDirPath = "\(WebRoot)/records"
 
 
-struct SocketKeys {
-    let playerSocketKeys: [String]
-    
-    
-}
-
-
-
 
 class BTBattleField {
     
-    let id: String
+    let id: String 
     
-    let playerSocketKeys: [String]
+    private var _playerSockets = [BTSocket]()
     
-    var playerSockets = [BTSocket]()
+    var playerSockets: [BTSocket] {
+        return self._playerSockets
+    }
     
     
-    
-    
-    
-    var status = BattleFieldStatus.Waiting
-//    {
-//        didSet {
-//            if status == BattleFieldStatus.End {
-//                self.saveRecord()
-//            }
-//        }
-//    }
+    var stateMachine: OCTStateMachine!
     
     
     lazy var record = [(String, BTMessage)]()
+
+    
+    init(id: String) {
+        self.id = id
+        Logger.debug("battle field: \(self.id)")
+    }
     
     
-    var isValid: Bool {
-        for sock in self.playerSockets {
-            if !sock.socket.isConnected {
-                self.status = .Disconnected
-                Logger.info("battle field: \(id) is NOT valid")
+    
+    var isAllPlayersConnecting: Bool {
+        for sock in self._playerSockets {
+            if !sock.isConnected {
                 return false
             }
         }
-        Logger.info("battle field: \(id) is valid with \(self.playerSockets.count) players")
         return true
     }
     
     
-    var isReady: Bool {
-        Logger.debug("battle field playerSocketKeys: \(playerSocketKeys.count) playerSockets: \(playerSockets.count)")
-        return self.playerSockets.count == self.playerSocketKeys.count
-    }
-    
-    
-    
-    init(playerSocketKeys keys: [String]) {
-        self.id = BTBattleFieldManager.sharedInstance.nextBattleFieldID()
-        self.playerSocketKeys = keys
-        
-        BTBattleFieldManager.sharedInstance.addBattleField(battleField: self)
-    }
-    
-    
-    init(sockets: [BTSocket]) {
-        self.id = BTBattleFieldManager.sharedInstance.nextBattleFieldID()
-        self.playerSocketKeys = sockets.map { $0.id }
-        
-        for sock in sockets {
-            self.addPlaySocket(socket: sock)
-        }
-        
-        BTBattleFieldManager.sharedInstance.addBattleField(battleField: self)
-    }
-    
-    
-    
-    func startFighting() {
-        if self.status == . Waiting && self.isReady {
-            self.status = .Fighting
-            for sock in self.playerSockets {
-                sock.status = .Fighting
+    var isAllPlayerStateMatching: Bool {
+        for sock in self._playerSockets {
+            guard sock.stateMachine.currentState is BTSocketMatching else {
+                return false
             }
-            broadcast(BTMessage(command: BTCommand.StartFighting))
         }
+        return true && self._playerSockets.count == 2
     }
     
     
-    func endFighting() {
-        if self.status == .Fighting {
-            self.status = .End
-            broadcast(BTMessage(command: BTCommand.EndFighting))
+    var isAllPlayerStateSynchronizing: Bool {
+        for sock in self._playerSockets {
+            guard sock.stateMachine.currentState is BTSocketSynchronizing else {
+                return false
+            }
         }
+        return true && self._playerSockets.count == 2
     }
     
     
-    func handleDisconnected() {
-        self.status = .Disconnected
-        self.broadcast(BTMessage(command: BTCommand.PlayerDisconnected))
+    var isAllPlayerStateEnding: Bool {
+        for sock in self._playerSockets {
+            guard sock.stateMachine.currentState is BTSocketEnding else {
+                return false
+            }
+        }
+        return true
     }
     
     
@@ -131,7 +96,7 @@ class BTBattleField {
             return
         }
         
-        self.playerSockets.append(socket)
+        self._playerSockets.append(socket)
         socket.battleField = self
         
     }
@@ -139,7 +104,7 @@ class BTBattleField {
     
     
     func hasPlayer(_ key: String) -> Bool {
-        for playerSocket in self.playerSockets {
+        for playerSocket in self._playerSockets {
             if playerSocket.id == key {
                 return true
             }
@@ -148,14 +113,15 @@ class BTBattleField {
     }
     
     
+    
     func hasPlayer(_ socket: BTSocket) -> Bool {
         return hasPlayer(socket.id)
     }
     
     
     
-    
     deinit {
+        Logger.debug("battle field: \(self.id)")
         self.saveRecord()
     }
     
@@ -163,12 +129,7 @@ class BTBattleField {
 
 
 
-
-
-
-
-
-
+//MARK:- Record
 
 
 
@@ -207,21 +168,21 @@ extension BTBattleField {
         self.record.append((Logger.localTime(), msg))
     }
     
+}
+
+
+
+
+//MARK:- Broadcast
     
     
-    
-    
-    
-    
-    
-    
-    
+extension BTBattleField {
     
     func broadcast(_ msg: BTMessage) {
         
         recordMessage(msg: msg)
         
-        for sock in self.playerSockets {
+        for sock in self._playerSockets {
             sock.socket.sendStringMessage(string: msg.description, final: true) {
                 Logger.info("battle field: \(self.id) BROADCAST message: \(msg) to socket: \(sock.id)")
             }
@@ -233,7 +194,7 @@ extension BTBattleField {
         
         recordMessage(msg: msg)
         
-        for sock in self.playerSockets {
+        for sock in self._playerSockets {
             if sock.id != playerID {
                 sock.socket.sendStringMessage(string: msg.description, final: true) {
                     Logger.info("battle field: \(self.id) FORWARD message: \(msg) to socket: \(sock.id)")
@@ -247,7 +208,7 @@ extension BTBattleField {
         
         recordMessage(msg: msg)
         
-        for sock in self.playerSockets {
+        for sock in self._playerSockets {
             if sock.id == dest {
                 sock.socket.sendStringMessage(string: msg.description, final: true) {
                     Logger.info("battle field: \(self.id) FORWARD message: \(msg) to socket: \(sock.id)")

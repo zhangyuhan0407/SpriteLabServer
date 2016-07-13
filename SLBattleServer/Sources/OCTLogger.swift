@@ -7,11 +7,15 @@
 //
 
 import Foundation
-import PerfectLib
 
-
+#if os(iOS)
+    let SaveToFile = false
+#else
+    import PerfectLib
 let SaveToFile = true
+#endif
 
+    
 let DebugMode = true
 
 let LogDirPath = "\(WebRoot)/logs"
@@ -30,7 +34,7 @@ public class Logger {
             
             let mode = "DEBUG"
             if let file = filename.components(separatedBy: "/").last {
-                print("\(mode): \(file)---\(function)---\(line)\n\t\(s)")
+                print("DEBUG: \(function) --- \(s)")
             
                 if SaveToFile {
                     do {
@@ -49,11 +53,11 @@ public class Logger {
     
     
     public class func warn(_ s: String, filename: String = #file, line: Int = #line, function: String = #function) {
-        
-        let mode = "WARN"
-        if let file = filename.components(separatedBy: "/").last {
-            print("\(mode): \(file)---\(function)---\(line)\n\t\(s)")
-        }
+        print("WARN: \(function) --- \(s)")
+//        let mode = "WARN"
+//        if let file = filename.components(separatedBy: "/").last {
+//            print("\(mode): \(file)---\(function)---\(line)\n\t\(s)")
+//        }
         
     }
     
@@ -61,7 +65,8 @@ public class Logger {
     public class func error(_ s: String, filename: String = #file, line: Int = #line, function: String = #function) {
         let mode = "ERROR"
         if let file = filename.components(separatedBy: "/").last {
-            print("\(mode): \(file)---\(function)---\(line)\n\t\(s)")
+//            print("\(mode): \(file)---\(function)---\(line)\n\t\(s)")
+            print("ERROR: \(function) --- \(s)")
             
             if SaveToFile {
                 do {

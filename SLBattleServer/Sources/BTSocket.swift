@@ -27,45 +27,36 @@ class BTSocket {
     
     var socket: WebSocket
     
-    
-    var isConnected: Bool {
-        return self.socket.isConnected
-    }
-    
+    var stateMachine: OCTStateMachine!
     
     weak var battleField: BTBattleField?
     
-//    var stateMachine: OCTStateMachine!
+    var isInBattleField: Bool { return self.battleField == nil ? false : true }
     
-    
-    var status: BTPlayerStatus = .Connected
-//    {
-//        //所有连接的Socket都默认需要开始匹配
-//        return self.battleField?.status ?? .WaitForPeers
-//    }
+    var isConnected: Bool { return self.socket.isConnected }
     
     
     //DO NOT CALL IT DIRECTLY
     init(sock: WebSocket, forKey key: String) {
         self.socket = sock
         self.id = key
-
-        
-        BTSocketManager.sharedInstance.addSocket(self)
+        Logger.debug("socket: \(self.id)")
     }
     
     
     
     
-    
-    func clear() {
-        print("clear \(self.id)")
-        self.socket.close()
-    }
+//    func clear() {
+//        Logger.info("socket: \(self.id)")
+//        
+//    }
     
     
     deinit {
-        clear()
+        if self.isConnected {
+            self.socket.close()
+        }
+        Logger.info("socket: \(self.id)")
     }
     
 }

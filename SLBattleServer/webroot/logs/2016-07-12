@@ -33,3 +33,86 @@
 2016-07-12 14:01:14:547,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_match"), opcode: text, final: true
 2016-07-12 14:01:15:558,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("456_match"), opcode: text, final: true
 2016-07-12 14:01:15:967,DEBUG,BTBattleField.swift,isReady,75,battle field playerSocketKeys: 2 playerSockets: 2
+2016-07-12 17:02:37:832,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_match"), opcode: text, final: true
+2016-07-12 17:02:39:506,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("456_match"), opcode: text, final: true
+2016-07-12 17:02:49:057,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("123_match"), opcode: text, final: true
+2016-07-12 17:06:06:030,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("456_match"), opcode: text, final: true
+2016-07-12 17:06:06:040,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: nil, opcode: invalid, final: true
+2016-07-12 17:06:06:042,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),31,Invalid Socket: false
+2016-07-12 17:06:14:814,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: Optional("456_match"), opcode: text, final: true
+2016-07-12 17:06:14:817,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),26,string: nil, opcode: invalid, final: true
+2016-07-12 17:06:14:817,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),31,Invalid Socket: false
+2016-07-12 17:16:17:558,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),98,true
+2016-07-12 17:16:20:342,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),98,true
+2016-07-12 17:17:32:135,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),98,true
+2016-07-12 17:17:43:948,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),98,true
+2016-07-12 17:24:51:223,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),98,false
+2016-07-12 17:25:01:836,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),98,false
+2016-07-12 17:25:41:599,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),99,false
+2016-07-12 17:26:28:010,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),99,false
+2016-07-12 17:27:21:450,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),99,false
+2016-07-12 17:27:50:559,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),99,true
+2016-07-12 17:27:55:462,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),99,true
+2016-07-12 17:29:56:790,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),99,true
+2016-07-12 17:31:36:306,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),99,true
+2016-07-12 17:33:00:994,DEBUG,BTSocketState+Matching.swift,didEnterWithPreviousState,22,nil
+2016-07-12 17:33:01:000,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),99,true
+2016-07-12 17:33:07:330,DEBUG,BTSocketState+Matching.swift,didEnterWithPreviousState,22,nil
+2016-07-12 17:33:07:331,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),99,true
+2016-07-12 17:33:11:507,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),31,Invalid Socket: false
+2016-07-12 17:46:50:507,DEBUG,BTSocketState+Matching.swift,didEnterWithPreviousState,22,nil
+2016-07-12 17:46:50:520,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),99,true
+2016-07-12 17:46:52:907,DEBUG,BTSocketState+Matching.swift,didEnterWithPreviousState,22,nil
+2016-07-12 17:46:52:908,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),99,true
+2016-07-12 17:46:58:304,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),31,Invalid Socket: false
+2016-07-12 17:49:46:758,DEBUG,BTSocketState+Matching.swift,didEnterWithPreviousState,22,nil
+2016-07-12 17:49:46:763,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),99,true
+2016-07-12 17:49:48:568,DEBUG,BTSocketState+Matching.swift,didEnterWithPreviousState,22,nil
+2016-07-12 17:49:48:570,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),99,true
+2016-07-12 17:49:51:890,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),31,Invalid Socket: false
+2016-07-12 17:49:56:465,DEBUG,BTSocketState+Matching.swift,didEnterWithPreviousState,22,nil
+2016-07-12 17:49:56:466,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),99,true
+2016-07-12 17:49:59:104,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),99,false
+2016-07-12 17:50:06:719,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),99,false
+2016-07-12 17:50:12:906,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),31,Invalid Socket: false
+2016-07-12 17:50:14:705,DEBUG,BTSocketState+Matching.swift,didEnterWithPreviousState,22,nil
+2016-07-12 17:50:14:706,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),99,true
+2016-07-12 17:50:19:010,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),31,Invalid Socket: false
+2016-07-12 21:23:34:660,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),106,true
+2016-07-12 21:23:40:555,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),31,Invalid Socket: false
+2016-07-12 21:23:42:547,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),106,true
+2016-07-12 21:23:44:175,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),106,true
+2016-07-12 21:23:54:772,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),106,true
+2016-07-12 21:23:55:804,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),106,true
+2016-07-12 21:23:56:439,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),31,Invalid Socket: false
+2016-07-12 21:24:20:000,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),106,true
+2016-07-12 21:24:21:338,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),106,true
+2016-07-12 21:24:46:275,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),106,true
+2016-07-12 21:24:46:275,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),31,Invalid Socket: false
+2016-07-12 21:24:53:518,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),106,true
+2016-07-12 21:24:54:243,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),106,true
+2016-07-12 21:25:04:853,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),106,true
+2016-07-12 21:25:05:713,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),106,true
+2016-07-12 21:25:06:488,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),31,Invalid Socket: false
+2016-07-12 21:25:09:686,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),106,true
+2016-07-12 21:25:10:462,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),106,true
+2016-07-12 21:30:05:563,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),106,true
+2016-07-12 21:30:06:352,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),106,true
+2016-07-12 21:30:22:626,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),31,Invalid Socket: false
+2016-07-12 21:30:22:627,DEBUG,BTBattleField.swift,saveRecord(),149,PerfectLib.File exists BUT SHOULD NOT EXIST
+2016-07-12 21:30:27:415,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),106,true
+2016-07-12 21:30:28:158,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),106,true
+2016-07-12 21:30:52:642,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),31,Invalid Socket: false
+2016-07-12 21:30:59:059,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),106,true
+2016-07-12 21:30:59:831,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),106,true
+2016-07-12 21:31:06:407,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),106,true
+2016-07-12 21:31:07:335,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),106,true
+2016-07-12 21:31:12:661,DEBUG,BTBattleField.swift,saveRecord(),149,PerfectLib.File exists BUT SHOULD NOT EXIST
+2016-07-12 21:31:12:663,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),31,Invalid Socket: false
+2016-07-12 21:31:21:167,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),106,true
+2016-07-12 21:31:22:924,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),31,Invalid Socket: false
+2016-07-12 21:31:24:285,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),106,true
+2016-07-12 21:31:31:285,DEBUG,SynchronizationHandler.swift,doMatch(msg:socket:),106,true
+2016-07-12 21:31:34:577,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),31,Invalid Socket: false
+2016-07-12 21:32:02:697,DEBUG,BTBattleField.swift,saveRecord(),149,PerfectLib.File exists BUT SHOULD NOT EXIST
+2016-07-12 21:32:02:699,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),31,Invalid Socket: false

@@ -17,8 +17,6 @@ import PerfectThread
 
 
 
-
-
 class BTBattleFieldManager {
     
     static var count: Int = 0
@@ -27,11 +25,40 @@ class BTBattleFieldManager {
     
     private init() {
         self.startMatching()
-        self.startClearInvalidBattleFields()
     }
     
     
     lazy var battleFields = [BTBattleField]()
+    
+    
+    func createBattleField() -> BTBattleField {
+        let newBattleField = BTBattleField(id: self.nextBattleFieldID())
+        
+        newBattleField.stateMachine = OCTStateMachine([BTBattleFieldSynchronizing(newBattleField),
+                                                       BTBattleFieldFighting(newBattleField),
+                                                       BTBattleFieldEnding(newBattleField),
+                                                       BTBattleFieldDisconnected(newBattleField)
+            ])
+        let _ = newBattleField.stateMachine.enterState(stateClass: BTBattleFieldSynchronizing.self)
+        
+        self.addBattleField(battleField: newBattleField)
+        
+        return newBattleField
+    }
+    
+    
+    func createBattleField(forSockets sockets: [BTSocket]) -> BTBattleField {
+
+        let newBattleField = self.createBattleField()
+        
+        for sock in sockets {
+            newBattleField.addPlaySocket(socket: sock)
+        }
+        
+        return newBattleField
+        
+    }
+    
     
     
     func addBattleField(battleField: BTBattleField) {
@@ -50,10 +77,9 @@ class BTBattleFieldManager {
                 return bf
             }
         }
-        Logger.debug("did not find battle field: \(key)")
+        
         return nil
     }
-    
     
     
     func hasBattleField(key: String) -> Bool {
@@ -68,51 +94,53 @@ class BTBattleFieldManager {
     
     func nextBattleFieldID() -> String {
         BTBattleFieldManager.count += 1
-        return "battlefield\(BTBattleFieldManager.count)"
+        return "BattleField_\(BTBattleFieldManager.count)"
     }
-    
     
     
     func removeBattleField(key: String) {
         self.battleFields = battleFields.filter {
-            $0.id != key
+            return $0.id != key
         }
     }
     
     
-    func removeDisconnectedBattleFields() {
-        self.battleFields = battleFields.filter {
-            $0.status != .Disconnected
-        }
-    }
+//    func checkBattleFields() {
+//        for bf in self.battleFields {
+//            if !bf.isAllPlayersConnecting {
+//                let _ = bf.stateMachine.enterState(stateClass: BTBattleFieldDisconnected.self)
+//            }
+//        }
+//    }
     
     
-    func removeEndedBattleFields() {
-        self.battleFields = battleFields.filter {
-            $0.status != .End
-        }
-    }
+//    func removeDisconnectedBattleFields() {
+//        self.battleFields = battleFields.filter {
+//            !($0.stateMachine.currentState is BTBattleFieldDisconnected)            
+//        }
+//    }
     
     
-    func removeInvalidBattleFields() {
-        self.battleFields = battleFields.filter {
-            if $0.isValid {
-                return true
-            }
-            
-            $0.handleDisconnected()
-            return false
-            
-        }
-    }
-    
-    
-    func clearInvalidBattleFields() {
-        
-        removeInvalidBattleFields()
-        removeDisconnectedBattleFields()
-        removeEndedBattleFields()
-    }
+//    func removeEndedBattleFields() {
+//        self.battleFields = battleFields.filter {
+//            if $0.stateMachine.currentState is BTBattleFieldEnding {
+////                for sock in $0.playerSockets {
+////                    if sock.isConnected {
+////                        sock.socket.close()
+////                    }
+////                }
+//                Logger.info("battle field: \($0.id)")
+//                return false
+//            }
+//            return true
+//        }
+//    }
+//
+//    
+//    
+//    func clearInvalidBattleFields() {
+//        removeEndedBattleFields()
+//    }
     
 }
 
@@ -139,21 +167,11 @@ extension BTBattleFieldManager {
     private func matching() {
         let freeSockets = BTSocketManager.sharedInstance.matchingSockets()
         if freeSockets.count >= 2 {
-            let newBattleField = BTBattleField(sockets: [freeSockets[0], freeSockets[1]])
-            newBattleField.startFighting()
+            let newBattleField = BTBattleFieldManager.sharedInstance.createBattleField(forSockets: [freeSockets[0], freeSockets[1]])
+            let _ = newBattleField.stateMachine.enterState(stateClass: BTBattleFieldFighting.self)
         }
     }
     
-    
-    private func startClearInvalidBattleFields() {
-        Logger.info("start")
-        Threading.dispatch {
-            while true {
-                self.clearInvalidBattleFields()
-                sleep(10)
-            }
-        }
-    }
     
     
 }

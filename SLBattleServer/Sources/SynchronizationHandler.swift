@@ -22,26 +22,47 @@ class SynchronizationHandler: WebSocketSessionHandler {
     
     func handleSession(request req: WebRequest, socket: WebSocket) {
         
+        
+//        socket.readBytesMessage { (data, opcode, final) in
+//            Logger.debug("data: \(data), opcode: \(opcode), final: \(final)")
+//            
+//            
+//            if opcode == .pong {
+//                print(String(bytes: data!, encoding: String.Encoding.utf8))
+//                print("received pong")
+//            } else if opcode == .close {
+//                print(String(bytes: data!, encoding: String.Encoding.utf8))
+//                print("received close")
+//            }
+//            
+//            
+//            self.handleSession(request: req, socket: socket)
+//            
+//            
+//        }
+        
+        
+        
+        
         socket.readStringMessage { (string, opcode, final) in
-            Logger.debug("string: \(string), opcode: \(opcode), final: \(final)")
-            
+//            Logger.debug("string: \(string), opcode: \(opcode), final: \(final)")
             
             if opcode == .invalid {
                 socket.close()
                 Logger.debug("Invalid Socket: \(socket.isConnected)")
-                BTBattleFieldManager.sharedInstance.removeInvalidBattleFields()
+                BTSocketManager.sharedInstance.checkDisconnectedSockets()
                 return
                 
             } else if opcode == .close {
                 socket.close()
                 Logger.debug("Close Socket: \(socket.isConnected)")
-                BTBattleFieldManager.sharedInstance.removeInvalidBattleFields()
+                BTSocketManager.sharedInstance.checkDisconnectedSockets()
                 return
-            }
+            } 
             
             
             guard let s = string else {
-                Logger.debug("empty string")
+                Logger.debug("empty string with opcode: \(opcode)")
                 self.handleSession(request: req, socket: socket)
                 return
             }
@@ -58,6 +79,7 @@ class SynchronizationHandler: WebSocketSessionHandler {
                         BTSocketManager.sharedInstance.createSocket(socket: socket, forKey: msg.userID)
             
             
+            Logger.debug("socket: \(sock.id) do command: \(msg.command)")
             
             switch msg.command {
             case .Synchronize:
@@ -88,23 +110,24 @@ class SynchronizationHandler: WebSocketSessionHandler {
     
     
     func doSynchronize(msg: BTMessage, socket: BTSocket) {
-        socket.status = .WaitingForPeers
-        Logger.info("doMatch for socket: \(socket.id)")
+        
+        let bf = BTBattleFieldManager.sharedInstance.findBattleField(key: msg.params!) ??
+                    BTBattleFieldManager.sharedInstance.createBattleField()
+        
+        
+        bf.addPlaySocket(socket: socket)
+        
+        let _ = socket.stateMachine.enterState(stateClass: BTSocketSynchronizing.self)
     }
     
     
     func doMatch(msg: BTMessage, socket: BTSocket) {
-//        let _ = socket.stateMachine.enterState(stateClass: BTSocketMatching.self)
-        Logger.info("socket: \(socket.id)' status is \(socket.status)")
-        if socket.status == .Connected {
-            socket.status = .Matching
-        }
-        
+        let _ = socket.stateMachine.enterState(stateClass: BTSocketMatching.self)
     }
     
     
     func doStartFighting(msg: BTMessage, socket: BTSocket) {
-        socket.battleField?.startFighting()
+        let _ = socket.battleField?.stateMachine.enterState(stateClass: BTBattleFieldFighting.self)
     }
     
     
@@ -123,41 +146,22 @@ class SynchronizationHandler: WebSocketSessionHandler {
     }
     
     
-//    func doEndFighting(msg: BTMessage, socket: BTSocket) {
-//        
-//        if let bf = socket.battleField {
-//            
-//            let result = msg.params ?? "win"
-//            
-//            if result == "win" {
-//                socket.status = .Win
-//            } else if result == "lose" {
-//                socket.status = .Lose
-//            } 
-//            
-//            
-//            for sock in bf.playerSockets {
-//                if sock.status != .Win || sock.status != .Lose || sock.status != .Disconnected {
-//                    return
-//                }
-//            }
-//            bf.closeAllSockets()
-//        }
-//    }
-    
     
     func doBattleResult(msg: BTMessage, socket: BTSocket) {
-//        if let bf = socket.battleField {
+
+        let _ = socket.stateMachine.enterState(stateClass: BTSocketEnding.self)
         
-            let result = msg.params ?? "win"
-            
-            if result == "win" {
-                socket.status = .Win
-            } else if result == "lose" {
-                socket.status = .Lose
-            }
-            
+        
+        
+//        
+//        let result = msg.params ?? "win"
+//        
+//        if result == "win" {
+//            
+//        } else if result == "lose" {
+//            let _ = socket.stateMachine.enterState(stateClass: BTSocketEnding.self)
 //        }
+        
     }
     
     

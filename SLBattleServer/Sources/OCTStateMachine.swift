@@ -6,6 +6,9 @@
 //
 //
 
+import Foundation
+
+
 class OCTStateMachine {
     
     var currentState: OCTState?
@@ -20,24 +23,25 @@ class OCTStateMachine {
     
     
     func canEnterStates(_ stateClass: AnyClass) -> Bool {
-        return true
+        if currentState == nil {
+            return true
+        }
+        
+        return self.currentState!.isValidNextState(stateClass)
     }
     
     
     func enterState(stateClass: OCTState.Type) -> Bool {
-        //        self.currentState = stateForClass(stateClass.dynamicType)
-        
+
         if currentState != nil {
             currentState!.willExitWithNextState(self.stateForClass(stateClass)!)
         }
-        
         
         if canEnterStates(stateClass) {
             let prevState = currentState
             self.currentState = stateForClass(stateClass)
             
-            currentState?.didEnterWithPreviousState(prevState)
-            
+            currentState!.didEnterWithPreviousState(prevState)
             return true
         }
         
@@ -46,13 +50,9 @@ class OCTStateMachine {
     
     func stateForClass<state: OCTState>(_ stateClass: state.Type) -> state? {
         for com in self.states {
-            if let ret = com as? state {
-                return ret
+            if com.classForCoder == stateClass {
+                return com as? state
             }
-            
-            //            if com.classForCoder == stateClass {
-            //                return com as? state
-            //            }
         }
         return nil
     }

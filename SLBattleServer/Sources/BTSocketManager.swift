@@ -21,13 +21,15 @@ class BTSocketManager {
     
     func createSocket(socket: WebSocket, forKey key: String) -> BTSocket {
         let sock = BTSocket(sock: socket, forKey: key)
-//        sock.stateMachine = OCTStateMachine([BTSocketConnected(socket: sock),
-//                                             BTSocketMatching(socket: sock),
-//                                             BTSOcketSynchronizing(socket: sock),
-//                                             BTSocketFighting(socket: sock),
-//                                             BTSocketEnding(socket: sock)])
-        
+        sock.stateMachine = OCTStateMachine([BTSocketConnected(socket: sock),
+                                             BTSocketMatching(socket: sock),
+                                             BTSocketSynchronizing(socket: sock),
+                                             BTSocketFighting(socket: sock),
+                                             BTSocketEnding(socket: sock),
+                                             BTSocketDisconnected(socket: sock)])
+        let _ = sock.stateMachine.enterState(stateClass: BTSocketConnected.self)
         self.addSocket(sock)
+        
         return sock
     }
     
@@ -57,39 +59,53 @@ class BTSocketManager {
     
     
     func findSocket(forKey key: String) -> BTSocket? {
-        clear()
-        
         for sock in self.sockets {
             if sock.id == key {
-                Logger.info("find socket: \(key)")
                 return sock
             }
         }
         
-        Logger.info("did not find socket: \(key)")
         return nil
     }
     
     
-    
-    func removeDisconnectedSockets() {
-        self.sockets = sockets.filter {
-            $0.isConnected == true
-        }
-    }
-    
-    
-    func removeEndedSockets() {
+    func removeSocket(key: String) {
         self.sockets = self.sockets.filter {
-            $0.status != .Win || $0.status != .Lose
+            $0.id != key
         }
     }
     
     
-    func clear() {
-        removeEndedSockets()
-        removeDisconnectedSockets()
+    func checkDisconnectedSockets() {
+        for sock in self.sockets {
+            if !sock.isConnected {
+                Logger.debug("sock: \(sock.id)")
+                let _ = sock.stateMachine.enterState(stateClass: BTSocketDisconnected.self)
+            }
+        }
     }
+    
+    
+    
+//    func removeDisconnectedSockets() {
+//        self.sockets = sockets.filter {
+//            //zyh!! 以后换成Disconnected状态
+//            $0.isConnected == true
+//        }
+//    }
+    
+    
+//    func removeEndedSockets() {
+//        self.sockets = self.sockets.filter {
+//            !($0.stateMachine.currentState is BTSocketEnding)
+//        }
+//    }
+    
+    
+//    func clear() {
+//        removeEndedSockets()
+//        removeDisconnectedSockets()
+//    }
     
     
 }
@@ -100,8 +116,7 @@ extension BTSocketManager {
     
     func matchingSockets() -> [BTSocket] {
         let ret = self.sockets.filter {
-            $0.status == BTPlayerStatus.Matching
-//            return true
+            $0.stateMachine.currentState is BTSocketMatching
         }
         return ret
     }
@@ -109,9 +124,11 @@ extension BTSocketManager {
     
     func waitingForPeersSockets() -> [BTSocket] {
         return self.sockets.filter {
-            $0.status == BTPlayerStatus.WaitingForPeers
+            $0.stateMachine.currentState is BTSocketSynchronizing
+            
         }
     }
+    
 }
 
 
