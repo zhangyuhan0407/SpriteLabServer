@@ -34,12 +34,14 @@ class BTBattleFieldManager {
     func createBattleField() -> BTBattleField {
         let newBattleField = BTBattleField(id: self.nextBattleFieldID())
         
-        newBattleField.stateMachine = OCTStateMachine([BTBattleFieldSynchronizing(newBattleField),
+        newBattleField.stateMachine = OCTStateMachine([BTBattleFieldCreated(newBattleField),
+                                                       BTBattleFieldSynchronizing(newBattleField),
+                                                       BTBattleFieldSynchronized(newBattleField),
                                                        BTBattleFieldFighting(newBattleField),
                                                        BTBattleFieldEnding(newBattleField),
                                                        BTBattleFieldDisconnected(newBattleField)
             ])
-        let _ = newBattleField.stateMachine.enterState(stateClass: BTBattleFieldSynchronizing.self)
+        let _ = newBattleField.stateMachine.enterState(stateClass: BTBattleFieldCreated.self)
         
         self.addBattleField(battleField: newBattleField)
         
@@ -167,8 +169,14 @@ extension BTBattleFieldManager {
     private func matching() {
         let freeSockets = BTSocketManager.sharedInstance.matchingSockets()
         if freeSockets.count >= 2 {
-            let newBattleField = BTBattleFieldManager.sharedInstance.createBattleField(forSockets: [freeSockets[0], freeSockets[1]])
-            let _ = newBattleField.stateMachine.enterState(stateClass: BTBattleFieldFighting.self)
+            let sockets = [freeSockets[0], freeSockets[1]]
+            let newBattleField = BTBattleFieldManager.sharedInstance.createBattleField(forSockets: sockets)
+            
+            let _ = newBattleField.stateMachine.enterState(stateClass: BTBattleFieldSynchronizing.self)
+            
+            
+            
+//            let _ = newBattleField.stateMachine.enterState(stateClass: BTBattleFieldSynchronizing.self)
         }
     }
     

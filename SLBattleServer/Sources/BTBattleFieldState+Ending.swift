@@ -20,7 +20,6 @@ class BTBattleFieldEnding: BTBattleFieldState {
         super.didEnterWithPreviousState(previousState)
         
         
-//        self.battleField?.broadcast(BTMessage(command: BTCommand.EndFighting))
         BTBattleFieldManager.sharedInstance.removeBattleField(key: self.battleField!.id)
     }
     

@@ -16,68 +16,68 @@ import SwiftyJSON
 
 func getUserInfo(request: WebRequest, _ response: WebResponse) {
 
-
+    
     let id = request.urlVariables["id"]!
+    
     if let user = SLUserDAO.sharedInstance.findOne(id: id) {
-        user.name = "zyh"
-        SLUserDAO.sharedInstance.save(user)
         
-        if let user2 = SLUserDAO.sharedInstance.findOne(id: id) {
-            response.appendBody(string: "user name: \(user2.name)")
-        } else {
-            response.appendBody(string: "user2 save error")
-        }
+//        user.exp = 60
+//        user.characters = ["zc", "zyh"]
+//        user.talent = ["fire", "water"]
+//        
+//        SLUserDAO.sharedInstance.save(user)
+        
+        response.appendBody(string: "\(user.toJSON())")
+        
+        let user2 = SLUser(fromJSON: user.toJSON())
+        
+        user2.exp = 123
+        user2.talent = ["123", "456"]
+        
+        print(user2.toJSON())
+        
         
         
     } else {
-        response.appendBody(string: "user empty")
+        
+        let u = SLUser(fromDictionary: ["id": "3", "exp":99, "characters": ["char1", "char2"], "talent": ["tal1", "tal2"]])
+        
+        SLUserDAO.sharedInstance.save(u)
+        
+        response.appendBody(string: "\(u.toDictionary())")
     }
     
     
     
-    
-    
-    
-    
-    
-    
-//    let result = pg.exec("select * from users")
-//    let status = result.status()
-//    
-//    
-//    var params = Dictionary<String, String>()
-//    
-//    if status == .CommandOK || status == .TuplesOK {
-//        
-//        if result.numFields() == 0 || result.numTuples() == 0 {
-//            response.appendBody(string: "result empty")
-//        }
-//        
-//        for i in 0..<result.numFields() {
-//            params.updateValue(result.getFieldString(tupleIndex: 0, fieldIndex: i)!, forKey: result.fieldName(index: i)!)
-//        }
-//        
-//        response.appendBody(string: "\(params)")
-//    }
-//    else {
-//        response.appendBody(string: "query error")
-//    }
-    
-    
-//    let date = NSDate()
-//    let id = request.urlVariables["id"]
-//    
-////    var dict = Dictionary<String, AnyObject>()
-////    dict.updateValue(date, forKey: "date")
-////    dict.updateValue(id!, forKey: "id")
-////    
-////    let cao = ["id": id!]
-//    
-//    let json = JSON(["id": id!, "date": date])
-    
-    
-//    response.appendBody(string: "\(json)")
     response.requestCompleted()
     
     
 }
+
+
+
+func getUsersInfo(request: WebRequest, _ response: WebResponse) {
+    let ids = request.params(named: "ids")
+    for id in ids {
+        if let user = SLUserDAO.sharedInstance.findOne(id: id) {
+            response.appendBody(string: "\(user.toDictionary())")
+        } else {
+            response.appendBody(string: "\(SLUser.random().toDictionary())")
+        }
+    }
+    
+    
+    response.requestCompleted()
+    
+}
+
+
+
+
+
+
+
+
+
+
+

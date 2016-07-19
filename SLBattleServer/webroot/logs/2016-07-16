@@ -1,0 +1,159 @@
+2016-07-16 13:26:04:412,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: user162
+2016-07-16 13:26:04:424,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTSocketConnected
+2016-07-16 13:26:04:424,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user162 do command: Error
+2016-07-16 13:26:04:425,ERROR,SynchronizationHandler.swift,handleSession(request:socket:),129,Unknow Command: Error
+2016-07-16 13:26:06:616,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: user6100
+2016-07-16 13:26:06:617,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTSocketConnected
+2016-07-16 13:26:06:618,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user6100 do command: Error
+2016-07-16 13:26:06:618,ERROR,SynchronizationHandler.swift,handleSession(request:socket:),129,Unknow Command: Error
+2016-07-16 13:29:07:400,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user162 do command: Error
+2016-07-16 13:29:07:407,ERROR,SynchronizationHandler.swift,handleSession(request:socket:),129,Unknow Command: Error
+2016-07-16 13:29:14:428,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user162 do command: Error
+2016-07-16 13:29:14:437,ERROR,SynchronizationHandler.swift,handleSession(request:socket:),129,Unknow Command: Error
+2016-07-16 13:29:15:303,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user162 do command: Error
+2016-07-16 13:29:15:303,ERROR,SynchronizationHandler.swift,handleSession(request:socket:),129,Unknow Command: Error
+2016-07-16 13:30:07:278,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),57,Invalid Socket: false
+2016-07-16 13:30:07:278,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),57,Invalid Socket: false
+2016-07-16 13:30:07:280,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: user162
+2016-07-16 13:30:07:280,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: user162
+2016-07-16 13:30:07:282,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketConnected) current: BTSocketDisconnected
+2016-07-16 13:30:07:282,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketDisconnected) current: BTSocketDisconnected
+2016-07-16 13:30:07:282,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketDisconnected) current: BTSocketEnding
+2016-07-16 13:30:07:283,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: user6100
+2016-07-16 13:30:07:283,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketConnected) current: BTSocketDisconnected
+2016-07-16 13:30:07:283,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketDisconnected) current: BTSocketEnding
+2016-07-16 13:30:07:284,DEBUG,BTSocketManager.swift,checkDisconnectedSockets(),82,sock: user6100
+2016-07-16 13:31:36:882,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: user3081
+2016-07-16 13:31:36:895,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTSocketConnected
+2016-07-16 13:31:36:896,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user3081 do command: statusmatching
+2016-07-16 13:31:36:896,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketConnected) current: BTSocketMatching
+2016-07-16 13:31:39:025,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: user7606
+2016-07-16 13:31:39:026,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTSocketConnected
+2016-07-16 13:31:39:027,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user7606 do command: statusmatching
+2016-07-16 13:31:39:027,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketConnected) current: BTSocketMatching
+2016-07-16 13:31:40:028,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_1
+2016-07-16 13:31:40:029,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTBattleFieldCreated
+2016-07-16 13:31:41:035,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_2
+2016-07-16 13:31:41:036,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTBattleFieldCreated
+2016-07-16 13:31:42:042,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_3
+2016-07-16 13:31:42:043,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTBattleFieldCreated
+2016-07-16 13:31:43:049,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_4
+2016-07-16 13:31:43:050,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTBattleFieldCreated
+2016-07-16 13:31:44:056,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_5
+2016-07-16 13:31:44:057,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTBattleFieldCreated
+2016-07-16 13:31:45:063,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_6
+2016-07-16 13:31:45:064,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTBattleFieldCreated
+2016-07-16 13:31:46:068,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_7
+2016-07-16 13:31:46:069,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTBattleFieldCreated
+2016-07-16 13:31:47:074,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_8
+2016-07-16 13:31:47:075,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTBattleFieldCreated
+2016-07-16 13:31:48:081,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_9
+2016-07-16 13:31:48:082,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTBattleFieldCreated
+2016-07-16 13:31:49:088,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_10
+2016-07-16 13:31:49:089,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTBattleFieldCreated
+2016-07-16 13:31:50:096,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_11
+2016-07-16 13:31:50:096,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTBattleFieldCreated
+2016-07-16 13:31:51:099,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_12
+2016-07-16 13:31:51:099,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTBattleFieldCreated
+2016-07-16 13:31:52:106,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_13
+2016-07-16 13:31:52:107,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTBattleFieldCreated
+2016-07-16 13:31:53:113,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_14
+2016-07-16 13:31:53:114,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTBattleFieldCreated
+2016-07-16 13:31:54:117,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_15
+2016-07-16 13:31:54:118,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTBattleFieldCreated
+2016-07-16 13:31:55:125,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_16
+2016-07-16 13:31:55:125,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTBattleFieldCreated
+2016-07-16 13:31:56:132,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_17
+2016-07-16 13:31:56:132,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTBattleFieldCreated
+2016-07-16 13:31:57:134,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_18
+2016-07-16 13:31:57:135,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTBattleFieldCreated
+2016-07-16 13:31:58:141,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_19
+2016-07-16 13:31:58:141,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTBattleFieldCreated
+2016-07-16 13:31:59:144,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_20
+2016-07-16 13:31:59:144,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTBattleFieldCreated
+2016-07-16 13:32:00:149,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_21
+2016-07-16 13:32:00:150,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTBattleFieldCreated
+2016-07-16 15:20:16:332,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: user9615
+2016-07-16 15:20:16:347,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTSocketConnected
+2016-07-16 15:20:16:348,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user9615 do command: statusmatching
+2016-07-16 15:20:16:348,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketConnected) current: BTSocketMatching
+2016-07-16 15:20:18:166,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: user940
+2016-07-16 15:20:18:167,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTSocketConnected
+2016-07-16 15:20:18:168,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user940 do command: statusmatching
+2016-07-16 15:20:18:168,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketConnected) current: BTSocketMatching
+2016-07-16 15:20:18:934,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_1
+2016-07-16 15:20:18:935,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTBattleFieldCreated
+2016-07-16 15:21:24:492,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: user9615
+2016-07-16 15:21:24:498,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTSocketConnected
+2016-07-16 15:21:24:499,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user9615 do command: statusmatching
+2016-07-16 15:21:24:499,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketConnected) current: BTSocketMatching
+2016-07-16 15:21:25:472,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: user940
+2016-07-16 15:21:25:472,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTSocketConnected
+2016-07-16 15:21:25:473,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user940 do command: statusmatching
+2016-07-16 15:21:25:473,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketConnected) current: BTSocketMatching
+2016-07-16 15:21:25:481,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_1
+2016-07-16 15:21:25:482,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTBattleFieldCreated
+2016-07-16 15:22:23:906,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: user9615
+2016-07-16 15:22:23:913,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTSocketConnected
+2016-07-16 15:22:23:913,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user9615 do command: statusmatching
+2016-07-16 15:22:23:914,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketConnected) current: BTSocketMatching
+2016-07-16 15:22:24:715,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: user940
+2016-07-16 15:22:24:715,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTSocketConnected
+2016-07-16 15:22:24:716,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user940 do command: statusmatching
+2016-07-16 15:22:24:717,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketConnected) current: BTSocketMatching
+2016-07-16 15:22:25:227,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_1
+2016-07-16 15:22:25:228,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTBattleFieldCreated
+2016-07-16 15:22:25:229,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTBattleFieldCreated) current: BTBattleFieldSynchronizing
+2016-07-16 15:22:25:230,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketMatching) current: BTSocketSynchronizing
+2016-07-16 15:22:25:230,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketMatching) current: BTSocketSynchronizing
+2016-07-16 15:22:28:934,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user9615 do command: statussynchronized
+2016-07-16 15:22:28:934,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketSynchronizing) current: BTSocketSynchronized
+2016-07-16 15:22:31:544,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user940 do command: statusmatching
+2016-07-16 15:22:32:426,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user940 do command: statussynchronized
+2016-07-16 15:22:32:427,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketSynchronizing) current: BTSocketSynchronized
+2016-07-16 15:22:32:428,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTBattleFieldSynchronizing) current: BTBattleFieldSynchronized
+2016-07-16 15:22:32:428,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTBattleFieldSynchronized) current: BTBattleFieldFighting
+2016-07-16 15:22:32:430,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketSynchronized) current: BTSocketFighting
+2016-07-16 15:22:32:431,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketSynchronized) current: BTSocketFighting
+2016-07-16 15:22:49:771,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user9615 do command: createspell
+2016-07-16 15:22:51:921,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user940 do command: createspell
+2016-07-16 15:22:53:085,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user9615 do command: statusending
+2016-07-16 15:22:53:086,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketFighting) current: BTSocketEnding
+2016-07-16 15:22:54:729,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user940 do command: statusending
+2016-07-16 15:22:54:730,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketFighting) current: BTSocketEnding
+2016-07-16 15:22:54:731,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTBattleFieldFighting) current: BTBattleFieldEnding
+2016-07-16 15:22:54:731,DEBUG,BTBattleField.swift,deinit,148,battle field: BattleField_1
+2016-07-16 15:22:54:733,DEBUG,BTBattleField.swift,saveRecord(),175,PerfectLib.File exists BUT SHOULD NOT EXIST
+2016-07-16 15:22:54:735,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),57,Invalid Socket: false
+2016-07-16 15:23:32:100,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: user9615
+2016-07-16 15:23:32:108,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTSocketConnected
+2016-07-16 15:23:32:109,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user9615 do command: statusmatching
+2016-07-16 15:23:32:110,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketConnected) current: BTSocketMatching
+2016-07-16 15:23:33:017,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user9615 do command: statusmatching
+2016-07-16 15:23:34:026,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: user940
+2016-07-16 15:23:34:026,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTSocketConnected
+2016-07-16 15:23:34:027,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user940 do command: statusmatching
+2016-07-16 15:23:34:027,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketConnected) current: BTSocketMatching
+2016-07-16 15:23:34:422,DEBUG,BTBattleField.swift,init(id:),47,battle field: BattleField_2
+2016-07-16 15:23:34:423,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTBattleFieldCreated
+2016-07-16 15:23:34:423,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTBattleFieldCreated) current: BTBattleFieldSynchronizing
+2016-07-16 15:23:34:424,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketMatching) current: BTSocketSynchronizing
+2016-07-16 15:23:34:424,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketMatching) current: BTSocketSynchronizing
+2016-07-16 15:23:36:816,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user9615 do command: createspell
+2016-07-16 15:23:37:859,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user9615 do command: createspell
+2016-07-16 15:23:38:271,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user9615 do command: createspell
+2016-07-16 15:23:56:503,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user9615 do command: statussynchronized
+2016-07-16 15:23:56:512,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketSynchronizing) current: BTSocketSynchronized
+2016-07-16 15:23:57:652,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user940 do command: statussynchronized
+2016-07-16 15:23:57:652,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketSynchronizing) current: BTSocketSynchronized
+2016-07-16 15:23:57:653,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTBattleFieldSynchronizing) current: BTBattleFieldSynchronized
+2016-07-16 15:23:57:654,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTBattleFieldSynchronized) current: BTBattleFieldFighting
+2016-07-16 15:23:57:655,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketSynchronized) current: BTSocketFighting
+2016-07-16 15:23:57:655,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketSynchronized) current: BTSocketFighting
+2016-07-16 15:24:21:880,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user9615 do command: statussynchronized
+2016-07-16 15:24:22:293,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user9615 do command: statussynchronized
+2016-07-16 15:24:22:468,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user9615 do command: statussynchronized
+2016-07-16 15:24:24:691,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user940 do command: statussynchronized
+2016-07-16 15:24:24:871,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user940 do command: statussynchronized
+2016-07-16 15:24:25:091,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user940 do command: statussynchronized
+2016-07-16 15:24:25:398,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: user940 do command: statussynchronized

@@ -10,47 +10,64 @@
 import Foundation
 
 
-enum BTCommand: String, CustomStringConvertible {
+
+public enum BTCommand: String, CustomStringConvertible {
     
-    case Synchronize = "synchronize"
-    case Match = "match"
-    case StartFighting = "startfighting"
-    case CreateSpell = "createspell"
-    case CastSpell = "castspell"
-    case PlayerStatus = "playerstatus"
-    case EndFighting = "endfighting"
-    case PlayerDisconnected = "playerdisconnected"
-    case BattleResult = "battleresult"
-    case Error = "commanderror"
+    case CStatusSynchronized   = "statussynchronized"
+    case CStatusMatching        = "statusmatching"
+    case CStatusFighting        = "statusfighting"
+    case CStatusEnding          = "statusending"
+    
+    case CCreateSpell           = "createspell"
+    case CCastSpell             = "castspell"
+    case CPlayerStatus          = "playerstatus"
     
     
-    static func decode(string: String) -> BTCommand {
+    case SStartSynchronizing    = "synchronizing"
+    case SStartFighting         = "startfighting"
+    case SEndFighting           = "endfighting"
+    case SPlayerDisconnected    = "playerdisconnected"
+    
+    
+    case Error                  = "error"
+    
+    
+    
+    public static func decode(string: String) -> BTCommand {
         switch string {
-        case "synchronize":
-            return .Synchronize
-        case "match":
-            return .Match
-        case "startfighting":
-            return .StartFighting
+        case "statussynchronized":
+            return .CStatusSynchronized
+        case "statusmatching":
+            return .CStatusMatching
+        case "statusfighting":
+            return .CStatusFighting
+        case "statusending":
+            return .CStatusEnding
+            
         case "createspell":
-            return .CreateSpell
+            return .CCreateSpell
         case "castspell":
-            return .CastSpell
+            return .CCreateSpell
         case "playerstatus":
-            return .PlayerStatus
+            return .CPlayerStatus
+            
+            
+        case "synchronizing":
+            return .SStartSynchronizing
+        case "startfighting":
+            return .SStartFighting
         case "endfighting":
-            return .EndFighting
+            return .SEndFighting
         case "playerdisconnected":
-            return .PlayerDisconnected
-        case "battleresult":
-            return .BattleResult
+            return .SPlayerDisconnected
         default:
             return .Error
         }
     }
     
     
-    var description: String {
+    
+    public var description: String {
         return self.rawValue
     }
     
@@ -58,7 +75,8 @@ enum BTCommand: String, CustomStringConvertible {
 
 
 
-func ==(lhs: BTCommand, rhs: BTCommand) -> Bool {
+
+public func ==(lhs: BTCommand, rhs: BTCommand) -> Bool {
     return lhs.rawValue == rhs.rawValue
 }
 

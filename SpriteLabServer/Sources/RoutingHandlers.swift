@@ -47,6 +47,7 @@ public func PerfectServerModuleInit() {
 
 func addGetRouters() {
     Routing.Routes[.get, "/user/{id}"] = getUserInfo
+    Routing.Routes[.get, "/users"] = getUsersInfo
 }
 
 

@@ -958,3 +958,5 @@
 2016-07-13 21:15:20:417,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTSocketConnected
 2016-07-13 21:15:20:418,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),82,socket: 123 do command: match
 2016-07-13 21:15:20:418,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketConnected) current: BTSocketMatching
+2016-07-13 21:28:10:127,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),57,Invalid Socket: false
+2016-07-13 21:28:36:062,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),57,Invalid Socket: false

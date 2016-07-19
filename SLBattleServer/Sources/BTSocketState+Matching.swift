@@ -12,13 +12,16 @@ import Foundation
 class BTSocketMatching: BTSocketState {
     
     override func isValidNextState(_ stateClass: AnyClass) -> Bool {
-        return stateClass is BTSocketFighting.Type || stateClass is BTSocketDisconnected.Type
+        return stateClass is BTSocketSynchronizing.Type || stateClass is BTSocketDisconnected.Type
     }
     
     
 //    override func didEnterWithPreviousState(_ previousState: OCTState?) {
-//        let result = self.socket?.battleField?.stateMachine.enterState(stateClass: BTBattleFieldFighting.self)
-//        Logger.debug("\(result)")
+//        super.didEnterWithPreviousState(previousState)
+//        
+//        let _ = self.socket?.battleField?.stateMachine.enterState(stateClass: BTBattleFieldFighting.self)
 //    }
     
 }
+
+

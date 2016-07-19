@@ -1,0 +1,5 @@
+2016-07-14 10:44:37:560,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),53,string: Optional("123_match"), opcode: text, final: true
+2016-07-14 10:44:37:565,DEBUG,BTSocket.swift,init(sock:forKey:),43,socket: 123
+2016-07-14 10:44:37:566,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: nil current: BTSocketConnected
+2016-07-14 10:44:37:566,DEBUG,SynchronizationHandler.swift,handleSession(request:socket:),90,socket: 123 do command: match
+2016-07-14 10:44:37:567,DEBUG,OCTState.swift,didEnterWithPreviousState,24,previous: Optional(SLBattleServer.BTSocketConnected) current: BTSocketMatching

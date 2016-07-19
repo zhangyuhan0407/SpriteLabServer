@@ -26,19 +26,30 @@ class BTBattleFieldFighting: BTBattleFieldState {
     override func didEnterWithPreviousState(_ previousState: OCTState?) {
         super.didEnterWithPreviousState(previousState)
         
-        //zyh!! 不应该由Battle Field调用Socket
+        
+        
+        self.battleField?.broadcast(BTMessage(command: BTCommand.SStartFighting))
         for sock in self.battleField!.playerSockets {
             let _ = sock.stateMachine.enterState(stateClass: BTSocketFighting.self)
         }
-        self.battleField?.broadcast(BTMessage(command: BTCommand.StartFighting))
+        
+        //zyh!!暂时没用，后面同步时间过长则判定掉线逻辑
+        //如果一个进入Fighting，另一个没有进入Fighting，则永远不能进入Ending状态
+        
+        
+        
+        
+//        self.battleField?.broadcast(BTMessage(command: BTCommand.SStartFighting))
+        //zyh!! 不应该由Battle Field调用Socket
+//        for sock in self.battleField!.playerSockets {
+//            let _ = sock.stateMachine.enterState(stateClass: BTSocketFighting.self)
+//        }
+        
+        
+        
+//        self.battleField?.broadcast(BTMessage(command: BTCommand.StartFighting))
         
     }
-    
-//    override func willExitWithNextState(_ nextState: OCTState) {
-//        if nextState is BTBattleFieldEnding {
-//            self.battleField?.broadcast(BTMessage(command: BTCommand.EndFighting))
-//        }
-//    }
     
     
 }

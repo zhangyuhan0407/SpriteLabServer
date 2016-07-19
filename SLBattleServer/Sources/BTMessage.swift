@@ -13,40 +13,40 @@ import Foundation
 
 let UserID = "WebSocketServer"
 
-struct BTMessage: CustomStringConvertible {
+
+
+public struct BTMessage: CustomStringConvertible {
     
-    var userID: String = UserID
+    public var userid: String = UserID
     
-    var command: BTCommand
+    public var command: BTCommand
     
-//    var params: Dictionary<String, AnyObject>?
-    
-    var params: String?
+    public var params: String
     
     
-    init?(from string: String) {
+    public init?(from string: String) {
         
         
 //        let json = JSON.parse(string: s).dictionaryValue
-//        
-//        
+//
+//
 //        guard let id = json["userid"]?.string else {
 //            Logger.error("\(json)\n NO userid")
 //            return nil
 //        }
-//        
+//
 //        guard let battleFieldID = json["battle_field_id"]?.string else {
 //            Logger.error("\(json)\n NO Battle Field ID")
 //            return nil
 //        }
-//        
-//        
+//
+//
 //        guard let command = json["command"]?.string else {
 //            Logger.error("\(json)\n NO Command")
 //            return nil
 //        }
-//        
-//        
+//
+//
 //        self.battleFieldID = battleFieldID
 //        self.userID = id
 //        self.command = command
@@ -55,41 +55,34 @@ struct BTMessage: CustomStringConvertible {
         
         let strings = string.components(separatedBy: "_")
         
-        guard strings.count > 1 else {
+        if strings.count < 3 {
+            print(string)
             return nil
         }
         
         
-        self.userID = strings[0]
+        self.userid = strings[0]
         self.command = BTCommand.decode(string: strings[1])
-
+        self.params = strings[2]
         
-        if strings.count > 2 {
-            self.params = strings[2]
-        }
-        
-
         
     }
     
     
-    init(command: BTCommand, params: String? = nil) {
+    public init(command: BTCommand, params: String = "") {
         self.command = command
         self.params = params
     }
     
-
-    var description: String {
-        if self.params == nil {
-            return "\(userID)_\(command)"
-        } else {
-            return "\(userID)_\(command)_\(params!)"
-        }
+    
+    public var description: String {
+        return "\(userid)_\(command)_\(params)"
     }
     
     
     
 }
+
 
 
 

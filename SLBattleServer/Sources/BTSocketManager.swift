@@ -24,6 +24,7 @@ class BTSocketManager {
         sock.stateMachine = OCTStateMachine([BTSocketConnected(socket: sock),
                                              BTSocketMatching(socket: sock),
                                              BTSocketSynchronizing(socket: sock),
+                                             BTSocketSynchronized(socket: sock),
                                              BTSocketFighting(socket: sock),
                                              BTSocketEnding(socket: sock),
                                              BTSocketDisconnected(socket: sock)])
@@ -124,7 +125,7 @@ extension BTSocketManager {
     
     func waitingForPeersSockets() -> [BTSocket] {
         return self.sockets.filter {
-            $0.stateMachine.currentState is BTSocketSynchronizing
+            $0.stateMachine.currentState is BTSocketSynchronized
             
         }
     }

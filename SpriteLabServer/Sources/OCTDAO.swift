@@ -6,12 +6,9 @@
 //
 //
 
-import SpriteLabClient
 
 
 protocol OCTDAO {
-    
-//    typealias Model: OCTModel
     
     associatedtype Model: OCTModel
     
@@ -19,7 +16,6 @@ protocol OCTDAO {
     
     static var PrimaryKey: String { get }
     
-//    static var query: PGQuery<Self> { get }
     
     
     func findOne(id: String) -> Model?
@@ -43,16 +39,24 @@ extension OCTDAO {
         let status = result.status()
         
         
-        var params = Dictionary<String, String>()
+        var params = Dictionary<String, AnyObject>()
         
         if status == .CommandOK || status == .TuplesOK {
-            print("\(status)")
+            
             if result.numFields() == 0 || result.numTuples() == 0 {
                 return nil
             }
             
             for i in 0..<result.numFields() {
-                params.updateValue(result.getFieldString(tupleIndex: 0, fieldIndex: i)!, forKey: result.fieldName(index: i)!)
+                
+                let k = result.fieldName(index: i)!
+                let v = result.getFieldString(tupleIndex: 0, fieldIndex: i)!
+                
+                if postgresResultIsArray(s: v) {
+                    params.updateValue(postgresResultArray(s: v), forKey: k)
+                } else {
+                    params.updateValue(v, forKey: k)
+                }
             }
             
         }
@@ -138,7 +142,7 @@ extension OCTDAO {
 
 
 
-//MARK:- 
+//MARK:-  Query String
 
 
 
@@ -164,7 +168,11 @@ extension OCTDAO {
         for param in params {
             if let value = param.1 {
                 let key = param.0
-                query.append("\(key) = \(postgresStyleString(forValue: value)),")
+                if postgresIsArray(obj: value) {
+                    query.append("\(key) = \(postgresArrayString(array: value as! [AnyObject])),")
+                } else {
+                    query.append("\(key) = \(postgresStyleString(forValue: value)),")
+                }
             }
         }
         
@@ -194,7 +202,12 @@ extension OCTDAO {
                 
                 keys.append(key + ",")
                 
-                values.append("\(postgresStyleString(forValue: value)),")
+                
+                if postgresIsArray(obj: value) {
+                    values.append("\(postgresArrayString(array: value as! [AnyObject])),")
+                } else {
+                    values.append("\(postgresStyleString(forValue: value)),")
+                }
                 
             }
             
@@ -337,6 +350,59 @@ func postgresStyleString(forValue value: Any) -> String {
         return "\(value)"
     }
 }
+
+
+func postgresIsArray(obj: AnyObject) -> Bool {
+    if obj is [String] {
+        return true
+    } else if obj is [Int] {
+        return true
+    }
+    
+    return false
+}
+
+
+
+func postgresResultIsArray(s: String) -> Bool {
+    return s.hasPrefix("{") && s.hasSuffix("}")
+}
+
+
+
+func postgresArrayString(array: [AnyObject]) -> String {
+    var ret = "'{"
+    for a in array {
+        ret.append("\(a),")
+    }
+    
+    ret.removeLastCharacter()
+    ret.append("}'")
+    
+    
+    return ret
+}
+
+
+func postgresResultArray(s: String) -> [AnyObject] {
+    var ss = String(s.characters.dropFirst())
+    ss = String(ss.characters.dropLast())
+    
+    var ret = [AnyObject]()
+    
+    let values = ss.components(separatedBy: ",")
+    
+    if values.count == 0 {
+        return ret
+    }
+    
+    for v in values {
+        ret.append(v)
+    }
+    
+    return ret
+}
+
 
 private extension String {
     mutating func removeLastCharacter() {

@@ -16,29 +16,29 @@ import PerfectThread
 
 
 
-class BTTickControl {
-    
-    static func startTick() {
-        Threading.dispatch {
-            Logger.info("start")
-//            while true {
-                for sock in BTSocketManager.sharedInstance.sockets {
-                    sock.socket.sendPing {
-                        Logger.info("send ping to socket: \(sock.id)")
-                    }
-                }
-            
-//                sleep(2)
-            
-//            }
-        }
-        
-        
-    }
-    
-    
-    
-}
+//class BTTickControl {
+//    
+//    static func startTick() {
+//        Threading.dispatch {
+//            Logger.info("start")
+////            while true {
+//                for sock in BTSocketManager.sharedInstance.sockets {
+//                    sock.socket.sendPing {
+//                        Logger.info("send ping to socket: \(sock.id)")
+//                    }
+//                }
+//            
+////                sleep(2)
+//            
+////            }
+//        }
+//        
+//        
+//    }
+//    
+//    
+//    
+//}
 
 
 

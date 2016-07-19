@@ -2,12 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:SLBattleServer/SLBattleServer.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:SpriteLabUtility/SpriteLabUtility.xcodeproj">
+      location = "group:SpriteLabClient/SpriteLabClient.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:SpriteLabServer/SpriteLabServer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SLBattleServer/SLBattleServer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SpriteLabClientNet/SpriteLabClientNet.xcodeproj">
    </FileRef>
 </Workspace>

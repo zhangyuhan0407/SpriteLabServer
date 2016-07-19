@@ -24,12 +24,6 @@ func addURLRoutes() {
     Routing.Routes["*"] = { request, response in StaticFileHandler().handleRequest(request: request, response: response) }
     
     
-    Routing.Routes["/folder"] = {
-        request, response in
-    
-        response.appendBody(string: "<html><title>Hello, Folder!</title><body>Hello, world!</body></html>")
-        response.requestCompleted()
-    }
     
     
     Routing.Routes[.get, "/nextbattlefieldid"] = { request, response in

@@ -19,7 +19,7 @@ class BTBattleFieldDisconnected: BTBattleFieldState {
         super.didEnterWithPreviousState(previousState)
         
         
-        self.battleField?.broadcast(BTMessage(command: BTCommand.PlayerDisconnected))
+        self.battleField?.broadcast(BTMessage(command: BTCommand.SPlayerDisconnected))
         let _ = self.stateMachine?.enterState(stateClass: BTBattleFieldEnding.self)
     }
     

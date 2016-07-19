@@ -22,28 +22,6 @@ class SynchronizationHandler: WebSocketSessionHandler {
     
     func handleSession(request req: WebRequest, socket: WebSocket) {
         
-        
-//        socket.readBytesMessage { (data, opcode, final) in
-//            Logger.debug("data: \(data), opcode: \(opcode), final: \(final)")
-//            
-//            
-//            if opcode == .pong {
-//                print(String(bytes: data!, encoding: String.Encoding.utf8))
-//                print("received pong")
-//            } else if opcode == .close {
-//                print(String(bytes: data!, encoding: String.Encoding.utf8))
-//                print("received close")
-//            }
-//            
-//            
-//            self.handleSession(request: req, socket: socket)
-//            
-//            
-//        }
-        
-        
-        
-        
         socket.readStringMessage { (string, opcode, final) in
 //            Logger.debug("string: \(string), opcode: \(opcode), final: \(final)")
             
@@ -58,7 +36,10 @@ class SynchronizationHandler: WebSocketSessionHandler {
                 Logger.debug("Close Socket: \(socket.isConnected)")
                 BTSocketManager.sharedInstance.checkDisconnectedSockets()
                 return
-            } 
+            } else if opcode == .ping{
+                print("received ping")
+                self.handleSession(request: req, socket: socket)
+            }
             
             
             guard let s = string else {
@@ -75,27 +56,31 @@ class SynchronizationHandler: WebSocketSessionHandler {
             
             
             
-            let sock = BTSocketManager.sharedInstance.findSocket(forKey: msg.userID) ??
-                        BTSocketManager.sharedInstance.createSocket(socket: socket, forKey: msg.userID)
+            let sock = BTSocketManager.sharedInstance.findSocket(forKey: msg.userid) ??
+                        BTSocketManager.sharedInstance.createSocket(socket: socket, forKey: msg.userid)
             
             
             Logger.debug("socket: \(sock.id) do command: \(msg.command)")
             
             switch msg.command {
-            case .Synchronize:
-                self.doSynchronize(msg: msg, socket: sock)
-            case .Match:
-                self.doMatch(msg: msg, socket: sock)
-            case .StartFighting:
-                self.doStartFighting(msg: msg, socket: sock)
-            case .CreateSpell:
+                
+            case .CStatusMatching:
+                self.doStatusMatching(message: msg, socket: sock)
+            case .CStatusSynchronized:
+                self.doStatusSynchronized(message: msg, socket: sock)
+//            case .CStatusFighting:
+//                self.doStatusFighting(message: msg, socket: sock)
+            case .CStatusEnding:
+                self.doStatusEnding(message: msg, socket: sock)
+
+                
+            case .CCreateSpell:
                 self.doCreateSpell(msg: msg, socket: sock)
-            case .CastSpell:
+            case .CCastSpell:
                 self.doCastSpell(msg: msg, socket: sock)
-            case .PlayerStatus:
+            case .CPlayerStatus:
                 self.doPlayerStatus(msg: msg, socket: sock)
-            case .BattleResult:
-                self.doBattleResult(msg: msg, socket: sock)
+                
             default:
                 Logger.error("Unknow Command: \(msg.command)")
             }
@@ -109,60 +94,43 @@ class SynchronizationHandler: WebSocketSessionHandler {
     }
     
     
-    func doSynchronize(msg: BTMessage, socket: BTSocket) {
-        
-        let bf = BTBattleFieldManager.sharedInstance.findBattleField(key: msg.params!) ??
-                    BTBattleFieldManager.sharedInstance.createBattleField()
-        
-        
-        bf.addPlaySocket(socket: socket)
-        
-        let _ = socket.stateMachine.enterState(stateClass: BTSocketSynchronizing.self)
-    }
     
-    
-    func doMatch(msg: BTMessage, socket: BTSocket) {
+    func doStatusMatching(message: BTMessage, socket: BTSocket) {
         let _ = socket.stateMachine.enterState(stateClass: BTSocketMatching.self)
     }
     
     
-    func doStartFighting(msg: BTMessage, socket: BTSocket) {
-        let _ = socket.battleField?.stateMachine.enterState(stateClass: BTBattleFieldFighting.self)
+    func doStatusSynchronized(message: BTMessage, socket: BTSocket) {
+        let _ = socket.stateMachine.enterState(stateClass: BTSocketSynchronized.self)
     }
     
     
+    func doStatusFighting(message: BTMessage, socket: BTSocket) {
+        let _ = socket.stateMachine.enterState(stateClass: BTSocketFighting.self)
+    }
+    
+    
+    
+    func doStatusEnding(message: BTMessage, socket: BTSocket) {
+        let _ = socket.stateMachine.enterState(stateClass: BTSocketEnding.self)
+    }
+    
+    
+    
     func doCreateSpell(msg: BTMessage, socket: BTSocket) {
-        socket.battleField?.forward(msg: msg, fromPlayer: msg.userID)
+        socket.battleField?.forward(msg: msg, fromPlayer: msg.userid)
     }
     
     
     func doCastSpell(msg: BTMessage, socket: BTSocket) {
-        socket.battleField?.forward(msg: msg, fromPlayer: msg.userID)
+        socket.battleField?.forward(msg: msg, fromPlayer: msg.userid)
     }
     
     
     func doPlayerStatus(msg: BTMessage, socket: BTSocket) {
-        socket.battleField?.forward(msg: msg, fromPlayer: msg.userID)
+        socket.battleField?.forward(msg: msg, fromPlayer: msg.userid)
     }
     
-    
-    
-    func doBattleResult(msg: BTMessage, socket: BTSocket) {
-
-        let _ = socket.stateMachine.enterState(stateClass: BTSocketEnding.self)
-        
-        
-        
-//        
-//        let result = msg.params ?? "win"
-//        
-//        if result == "win" {
-//            
-//        } else if result == "lose" {
-//            let _ = socket.stateMachine.enterState(stateClass: BTSocketEnding.self)
-//        }
-        
-    }
     
     
 }

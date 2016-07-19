@@ -7,7 +7,6 @@
 //
 
 
-import SpriteLabClient
 
 
 class SLUserDAO: OCTDAO {

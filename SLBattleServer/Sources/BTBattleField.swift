@@ -79,6 +79,27 @@ class BTBattleField {
     }
     
     
+    var isAllPlayerStateSynchronized: Bool {
+        for sock in self._playerSockets {
+            guard sock.stateMachine.currentState is BTSocketSynchronized else {
+                return false
+            }
+        }
+        return true && self._playerSockets.count == 2
+    }
+    
+    
+    var isAllPlayerStateFighting: Bool {
+        for sock in self._playerSockets {
+            guard sock.stateMachine.currentState is BTSocketFighting else {
+                return false
+            }
+        }
+        return true && self._playerSockets.count == 2
+    }
+    
+    
+    
     var isAllPlayerStateEnding: Bool {
         for sock in self._playerSockets {
             guard sock.stateMachine.currentState is BTSocketEnding else {
@@ -97,6 +118,9 @@ class BTBattleField {
         }
         
         self._playerSockets.append(socket)
+        if socket.battleField != nil {
+            Logger.error("battle field: \(socket.battleField!.id)")
+        }
         socket.battleField = self
         
     }
@@ -164,10 +188,6 @@ extension BTBattleField {
     }
     
     
-    func recordMessage(msg: BTMessage) {
-        self.record.append((Logger.localTime(), msg))
-    }
-    
 }
 
 
@@ -177,6 +197,11 @@ extension BTBattleField {
     
     
 extension BTBattleField {
+    
+    func recordMessage(msg: BTMessage) {
+        self.record.append((Logger.localTime(), msg))
+    }
+    
     
     func broadcast(_ msg: BTMessage) {
         

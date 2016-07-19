@@ -51,45 +51,54 @@
 		"__src_cc_ref_Packages/PostgreSQL-0.1.0/Sources/PostgreSQL/PostgreSQL.swift" /* PostgreSQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PostgreSQL-0.1.0/Sources/PostgreSQL/PostgreSQL.swift" /* PostgreSQL.swift */; };
 		"__src_cc_ref_Packages/SwiftyJSON-9.0.0/Source/LclJSONSerialization.swift" /* LclJSONSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/SwiftyJSON-9.0.0/Source/LclJSONSerialization.swift" /* LclJSONSerialization.swift */; };
 		"__src_cc_ref_Packages/SwiftyJSON-9.0.0/Source/SwiftyJSON.swift" /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/SwiftyJSON-9.0.0/Source/SwiftyJSON.swift" /* SwiftyJSON.swift */; };
+		__src_cc_ref_Sources/Json.swift /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/Json.swift /* Json.swift */; };
+		"__src_cc_ref_Sources/JsonParser+Foundation.swift" /* JsonParser+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Sources/JsonParser+Foundation.swift" /* JsonParser+Foundation.swift */; };
+		__src_cc_ref_Sources/JsonParser.swift /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/JsonParser.swift /* JsonParser.swift */; };
+		__src_cc_ref_Sources/JsonSerializer.swift /* JsonSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/JsonSerializer.swift /* JsonSerializer.swift */; };
 		__src_cc_ref_Sources/OCTDAO.swift /* OCTDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/OCTDAO.swift /* OCTDAO.swift */; };
+		__src_cc_ref_Sources/OCTJSON.swift /* OCTJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/OCTJSON.swift /* OCTJSON.swift */; };
 		__src_cc_ref_Sources/OCTLogger.swift /* OCTLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/OCTLogger.swift /* OCTLogger.swift */; };
+		__src_cc_ref_Sources/OCTModel.swift /* OCTModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/OCTModel.swift /* OCTModel.swift */; };
+		__src_cc_ref_Sources/ParseError.swift /* ParseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/ParseError.swift /* ParseError.swift */; };
 		__src_cc_ref_Sources/PostgreSQL.swift /* PostgreSQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/PostgreSQL.swift /* PostgreSQL.swift */; };
 		__src_cc_ref_Sources/RoutingHandlers.swift /* RoutingHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/RoutingHandlers.swift /* RoutingHandlers.swift */; };
+		__src_cc_ref_Sources/SLUser.swift /* SLUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/SLUser.swift /* SLUser.swift */; };
 		__src_cc_ref_Sources/SLUserDAO.swift /* SLUserDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/SLUserDAO.swift /* SLUserDAO.swift */; };
+		__src_cc_ref_Sources/StringUtils.swift /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/StringUtils.swift /* StringUtils.swift */; };
 		__src_cc_ref_Sources/UserRoutingHandlers.swift /* UserRoutingHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/UserRoutingHandlers.swift /* UserRoutingHandlers.swift */; };
 		__src_cc_ref_Sources/main.swift /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/main.swift /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9E8033A11D2514EC00743BAE /* PBXContainerItemProxy */ = {
+		9EB88B631D3D39D3008C8942 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_PerfectThread";
 			remoteInfo = PerfectThread;
 		};
-		9E8033A21D2514EC00743BAE /* PBXContainerItemProxy */ = {
+		9EB88B641D3D39D3008C8942 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_PerfectNet";
 			remoteInfo = PerfectNet;
 		};
-		9E8033A31D2514EC00743BAE /* PBXContainerItemProxy */ = {
+		9EB88B651D3D39D3008C8942 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_SwiftyJSON";
 			remoteInfo = SwiftyJSON;
 		};
-		9E8033A41D2514EC00743BAE /* PBXContainerItemProxy */ = {
+		9EB88B661D3D39D3008C8942 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_PostgreSQL";
 			remoteInfo = PostgreSQL;
 		};
-		9E8033A51D2514EC00743BAE /* PBXContainerItemProxy */ = {
+		9EB88B671D3D39D3008C8942 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
@@ -140,11 +149,20 @@
 		__PBXFileRef_PerfectNet_Info.plist /* PerfectNet_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = PerfectNet_Info.plist; path = SpriteLabServer.xcodeproj/PerfectNet_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_PerfectThread_Info.plist /* PerfectThread_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = PerfectThread_Info.plist; path = SpriteLabServer.xcodeproj/PerfectThread_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_PostgreSQL_Info.plist /* PostgreSQL_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = PostgreSQL_Info.plist; path = SpriteLabServer.xcodeproj/PostgreSQL_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_Sources/Json.swift /* Json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Json.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Sources/JsonParser+Foundation.swift" /* JsonParser+Foundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JsonParser+Foundation.swift"; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/JsonParser.swift /* JsonParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParser.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/JsonSerializer.swift /* JsonSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonSerializer.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Sources/OCTDAO.swift /* OCTDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCTDAO.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/OCTJSON.swift /* OCTJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCTJSON.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Sources/OCTLogger.swift /* OCTLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCTLogger.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/OCTModel.swift /* OCTModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCTModel.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/ParseError.swift /* ParseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseError.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Sources/PostgreSQL.swift /* PostgreSQL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostgreSQL.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Sources/RoutingHandlers.swift /* RoutingHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingHandlers.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/SLUser.swift /* SLUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLUser.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Sources/SLUserDAO.swift /* SLUserDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLUserDAO.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/StringUtils.swift /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Sources/UserRoutingHandlers.swift /* UserRoutingHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRoutingHandlers.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Sources/main.swift /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		__PBXFileRef_SpriteLabServer.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Project.xcconfig; path = SpriteLabServer.xcodeproj/Configs/Project.xcconfig; sourceTree = "<group>"; };
@@ -336,12 +354,21 @@
 		"_______Group_SpriteLabServer" /* SpriteLabServer */ = {
 			isa = PBXGroup;
 			children = (
+				__PBXFileRef_Sources/Json.swift /* Json.swift */,
+				"__PBXFileRef_Sources/JsonParser+Foundation.swift" /* JsonParser+Foundation.swift */,
+				__PBXFileRef_Sources/JsonParser.swift /* JsonParser.swift */,
+				__PBXFileRef_Sources/JsonSerializer.swift /* JsonSerializer.swift */,
 				__PBXFileRef_Sources/main.swift /* main.swift */,
-				__PBXFileRef_Sources/OCTLogger.swift /* OCTLogger.swift */,
 				__PBXFileRef_Sources/OCTDAO.swift /* OCTDAO.swift */,
+				__PBXFileRef_Sources/OCTJSON.swift /* OCTJSON.swift */,
+				__PBXFileRef_Sources/OCTLogger.swift /* OCTLogger.swift */,
+				__PBXFileRef_Sources/OCTModel.swift /* OCTModel.swift */,
+				__PBXFileRef_Sources/ParseError.swift /* ParseError.swift */,
 				__PBXFileRef_Sources/PostgreSQL.swift /* PostgreSQL.swift */,
 				__PBXFileRef_Sources/RoutingHandlers.swift /* RoutingHandlers.swift */,
+				__PBXFileRef_Sources/SLUser.swift /* SLUser.swift */,
 				__PBXFileRef_Sources/SLUserDAO.swift /* SLUserDAO.swift */,
+				__PBXFileRef_Sources/StringUtils.swift /* StringUtils.swift */,
 				__PBXFileRef_Sources/UserRoutingHandlers.swift /* UserRoutingHandlers.swift */,
 			);
 			name = SpriteLabServer;
@@ -563,12 +590,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				__src_cc_ref_Sources/Json.swift /* Json.swift in Sources */,
+				"__src_cc_ref_Sources/JsonParser+Foundation.swift" /* JsonParser+Foundation.swift in Sources */,
+				__src_cc_ref_Sources/JsonParser.swift /* JsonParser.swift in Sources */,
+				__src_cc_ref_Sources/JsonSerializer.swift /* JsonSerializer.swift in Sources */,
 				__src_cc_ref_Sources/main.swift /* main.swift in Sources */,
 				__src_cc_ref_Sources/OCTDAO.swift /* OCTDAO.swift in Sources */,
+				__src_cc_ref_Sources/OCTJSON.swift /* OCTJSON.swift in Sources */,
 				__src_cc_ref_Sources/OCTLogger.swift /* OCTLogger.swift in Sources */,
+				__src_cc_ref_Sources/OCTModel.swift /* OCTModel.swift in Sources */,
+				__src_cc_ref_Sources/ParseError.swift /* ParseError.swift in Sources */,
 				__src_cc_ref_Sources/PostgreSQL.swift /* PostgreSQL.swift in Sources */,
 				__src_cc_ref_Sources/RoutingHandlers.swift /* RoutingHandlers.swift in Sources */,
+				__src_cc_ref_Sources/SLUser.swift /* SLUser.swift in Sources */,
 				__src_cc_ref_Sources/SLUserDAO.swift /* SLUserDAO.swift in Sources */,
+				__src_cc_ref_Sources/StringUtils.swift /* StringUtils.swift in Sources */,
 				__src_cc_ref_Sources/UserRoutingHandlers.swift /* UserRoutingHandlers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -588,27 +624,27 @@
 		__Dependency_PerfectLib /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_PerfectLib" /* PerfectLib */;
-			targetProxy = 9E8033A51D2514EC00743BAE /* PBXContainerItemProxy */;
+			targetProxy = 9EB88B671D3D39D3008C8942 /* PBXContainerItemProxy */;
 		};
 		__Dependency_PerfectNet /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_PerfectNet" /* PerfectNet */;
-			targetProxy = 9E8033A21D2514EC00743BAE /* PBXContainerItemProxy */;
+			targetProxy = 9EB88B641D3D39D3008C8942 /* PBXContainerItemProxy */;
 		};
 		__Dependency_PerfectThread /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_PerfectThread" /* PerfectThread */;
-			targetProxy = 9E8033A11D2514EC00743BAE /* PBXContainerItemProxy */;
+			targetProxy = 9EB88B631D3D39D3008C8942 /* PBXContainerItemProxy */;
 		};
 		__Dependency_PostgreSQL /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_PostgreSQL" /* PostgreSQL */;
-			targetProxy = 9E8033A41D2514EC00743BAE /* PBXContainerItemProxy */;
+			targetProxy = 9EB88B661D3D39D3008C8942 /* PBXContainerItemProxy */;
 		};
 		__Dependency_SwiftyJSON /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_SwiftyJSON" /* SwiftyJSON */;
-			targetProxy = 9E8033A31D2514EC00743BAE /* PBXContainerItemProxy */;
+			targetProxy = 9EB88B651D3D39D3008C8942 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

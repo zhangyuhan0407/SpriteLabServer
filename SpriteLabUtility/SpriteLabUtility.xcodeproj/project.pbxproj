@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E6263491D37423C00BDD051 /* BTHeartTick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6263481D37423C00BDD051 /* BTHeartTick.swift */; };
+		9E6263521D37665B00BDD051 /* WebSocket+Sender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6263511D37665B00BDD051 /* WebSocket+Sender.swift */; };
+		9E6263911D3786A100BDD051 /* SpriteLabUtilityOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E6263901D3786A100BDD051 /* SpriteLabUtilityOSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E62639E1D3786C500BDD051 /* SpriteLabIOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E62639D1D3786C500BDD051 /* SpriteLabIOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9EA280D71D33613A001CBF73 /* SpriteLabUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EA280D61D33613A001CBF73 /* SpriteLabUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9EA280E61D336160001CBF73 /* SLUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA280E41D336160001CBF73 /* SLUser.swift */; };
 		9EA280E71D336160001CBF73 /* OCTModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA280E51D336160001CBF73 /* OCTModel.swift */; };
@@ -62,6 +66,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E6263481D37423C00BDD051 /* BTHeartTick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTHeartTick.swift; sourceTree = "<group>"; };
+		9E6263511D37665B00BDD051 /* WebSocket+Sender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WebSocket+Sender.swift"; sourceTree = "<group>"; };
+		9E62638E1D3786A100BDD051 /* SpriteLabUtilityOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpriteLabUtilityOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E6263901D3786A100BDD051 /* SpriteLabUtilityOSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpriteLabUtilityOSX.h; sourceTree = "<group>"; };
+		9E6263921D3786A100BDD051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E62639B1D3786C500BDD051 /* SpriteLabIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpriteLabIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E62639D1D3786C500BDD051 /* SpriteLabIOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpriteLabIOS.h; sourceTree = "<group>"; };
+		9E62639F1D3786C500BDD051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EA280D31D33613A001CBF73 /* SpriteLabUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpriteLabUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EA280D61D33613A001CBF73 /* SpriteLabUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpriteLabUtility.h; sourceTree = "<group>"; };
 		9EA280D81D33613A001CBF73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,6 +86,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9E62638A1D3786A100BDD051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6263971D3786C500BDD051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9EA280CF1D33613A001CBF73 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -85,11 +111,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E62638F1D3786A100BDD051 /* SpriteLabUtilityOSX */ = {
+			isa = PBXGroup;
+			children = (
+				9E6263901D3786A100BDD051 /* SpriteLabUtilityOSX.h */,
+				9E6263921D3786A100BDD051 /* Info.plist */,
+			);
+			path = SpriteLabUtilityOSX;
+			sourceTree = "<group>";
+		};
+		9E62639C1D3786C500BDD051 /* SpriteLabIOS */ = {
+			isa = PBXGroup;
+			children = (
+				9E62639D1D3786C500BDD051 /* SpriteLabIOS.h */,
+				9E62639F1D3786C500BDD051 /* Info.plist */,
+			);
+			path = SpriteLabIOS;
+			sourceTree = "<group>";
+		};
 		9EA280C91D33613A001CBF73 = {
 			isa = PBXGroup;
 			children = (
 				9EA281011D336203001CBF73 /* Starscream.xcodeproj */,
 				9EA280D51D33613A001CBF73 /* SpriteLabUtility */,
+				9E62638F1D3786A100BDD051 /* SpriteLabUtilityOSX */,
+				9E62639C1D3786C500BDD051 /* SpriteLabIOS */,
 				9EA280D41D33613A001CBF73 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,6 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				9EA280D31D33613A001CBF73 /* SpriteLabUtility.framework */,
+				9E62638E1D3786A100BDD051 /* SpriteLabUtilityOSX.framework */,
+				9E62639B1D3786C500BDD051 /* SpriteLabIOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,6 +176,8 @@
 				9EA281171D3365B6001CBF73 /* BTCommand.swift */,
 				9EA281181D3365B6001CBF73 /* BTMessage.swift */,
 				9EA280EA1D336177001CBF73 /* SLBattleFieldNet.swift */,
+				9E6263511D37665B00BDD051 /* WebSocket+Sender.swift */,
+				9E6263481D37423C00BDD051 /* BTHeartTick.swift */,
 			);
 			name = Service;
 			sourceTree = "<group>";
@@ -148,6 +198,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		9E62638B1D3786A100BDD051 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6263911D3786A100BDD051 /* SpriteLabUtilityOSX.h in Headers */,
+				9E62639E1D3786C500BDD051 /* SpriteLabIOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6263981D3786C500BDD051 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9EA280D01D33613A001CBF73 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -159,6 +225,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		9E62638D1D3786A100BDD051 /* SpriteLabUtilityOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E6263931D3786A100BDD051 /* Build configuration list for PBXNativeTarget "SpriteLabUtilityOSX" */;
+			buildPhases = (
+				9E6263891D3786A100BDD051 /* Sources */,
+				9E62638A1D3786A100BDD051 /* Frameworks */,
+				9E62638B1D3786A100BDD051 /* Headers */,
+				9E62638C1D3786A100BDD051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpriteLabUtilityOSX;
+			productName = SpriteLabUtilityOSX;
+			productReference = 9E62638E1D3786A100BDD051 /* SpriteLabUtilityOSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9E62639A1D3786C500BDD051 /* SpriteLabIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E6263A01D3786C500BDD051 /* Build configuration list for PBXNativeTarget "SpriteLabIOS" */;
+			buildPhases = (
+				9E6263961D3786C500BDD051 /* Sources */,
+				9E6263971D3786C500BDD051 /* Frameworks */,
+				9E6263981D3786C500BDD051 /* Headers */,
+				9E6263991D3786C500BDD051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpriteLabIOS;
+			productName = SpriteLabIOS;
+			productReference = 9E62639B1D3786C500BDD051 /* SpriteLabIOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		9EA280D21D33613A001CBF73 /* SpriteLabUtility */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9EA280DB1D33613A001CBF73 /* Build configuration list for PBXNativeTarget "SpriteLabUtility" */;
@@ -186,6 +288,18 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = octopus;
 				TargetAttributes = {
+					9E62638D1D3786A100BDD051 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = RPE99U9L3R;
+						DevelopmentTeamName = "宇涵 张 (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+					9E62639A1D3786C500BDD051 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = RPE99U9L3R;
+						DevelopmentTeamName = "宇涵 张 (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
 					9EA280D21D33613A001CBF73 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = RPE99U9L3R;
@@ -213,6 +327,8 @@
 			projectRoot = "";
 			targets = (
 				9EA280D21D33613A001CBF73 /* SpriteLabUtility */,
+				9E62638D1D3786A100BDD051 /* SpriteLabUtilityOSX */,
+				9E62639A1D3786C500BDD051 /* SpriteLabIOS */,
 			);
 		};
 /* End PBXProject section */
@@ -263,6 +379,20 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9E62638C1D3786A100BDD051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6263991D3786C500BDD051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9EA280D11D33613A001CBF73 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -273,11 +403,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9E6263891D3786A100BDD051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6263961D3786C500BDD051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9EA280CE1D33613A001CBF73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9EA280EB1D336177001CBF73 /* SLBattleFieldNet.swift in Sources */,
+				9E6263491D37423C00BDD051 /* BTHeartTick.swift in Sources */,
+				9E6263521D37665B00BDD051 /* WebSocket+Sender.swift in Sources */,
 				9EA280E71D336160001CBF73 /* OCTModel.swift in Sources */,
 				9EA280E61D336160001CBF73 /* SLUser.swift in Sources */,
 				9EA281191D3365B6001CBF73 /* BTCommand.swift in Sources */,
@@ -288,6 +434,92 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		9E6263941D3786A100BDD051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SpriteLabUtilityOSX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = online.octopus.SpriteLabUtilityOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E6263951D3786A100BDD051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SpriteLabUtilityOSX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = online.octopus.SpriteLabUtilityOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E6263A11D3786C500BDD051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SpriteLabIOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = online.octopus.SpriteLabIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E6263A21D3786C500BDD051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SpriteLabIOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = online.octopus.SpriteLabIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		9EA280D91D33613A001CBF73 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -421,6 +653,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9E6263931D3786A100BDD051 /* Build configuration list for PBXNativeTarget "SpriteLabUtilityOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E6263941D3786A100BDD051 /* Debug */,
+				9E6263951D3786A100BDD051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9E6263A01D3786C500BDD051 /* Build configuration list for PBXNativeTarget "SpriteLabIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E6263A11D3786C500BDD051 /* Debug */,
+				9E6263A21D3786C500BDD051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		9EA280CD1D33613A001CBF73 /* Build configuration list for PBXProject "SpriteLabUtility" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

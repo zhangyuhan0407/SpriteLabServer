@@ -12,7 +12,7 @@ import Foundation
     let SaveToFile = false
 #else
     import PerfectLib
-let SaveToFile = true
+    let SaveToFile = true
 #endif
 
     
